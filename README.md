@@ -13,7 +13,7 @@ This project is a simple web application that allows sharing and viewing recipes
 - Multilingual support (English and German)
 - Copy recipe links and markdown format
 
->[WARNING]
+>[!WARNING]
 >This project is not affiliated with KptnCook.com and is a quick, hacked together project done in a few hours. 
 >Use at your own risk and don't judge the code quality too harshly. ;-D
 
