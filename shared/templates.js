@@ -141,7 +141,7 @@ export function renderRecipeHTML(recipe, lang) {
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="/">${t(lang, 'appTitle')}</a>
+            <a class="navbar-brand" href="/"><i class="fas fa-anchor me-2"></i><span id="appTitle">${t(lang, 'appTitle')}</span></a>
             <button class="btn btn-outline-light" onclick="toggleLanguage()">${t(lang, 'switchLang')}</button>
         </div>
     </nav>

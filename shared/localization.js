@@ -29,7 +29,7 @@ const translations = {
     en: {
         appTitle: "KptnUncook's Crazy Galley",
         heroTitle: "Welcome to the Galley",
-        heroSubtitle: "Share delicious recipes with friends easily and quickly",
+        heroSubtitle: "Share delicious recipes with friends quickly and easily",
         inputPlaceholder: "Enter recipe short link",
         getRecipe: "Get Recipe",
         loading: "Loading recipe...",

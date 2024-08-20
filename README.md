@@ -4,7 +4,7 @@
 
 This project is a simple web application that allows sharing and viewing recipes from [KptnCook](https://www.kptncook.com/). It provides an easy way to fetch and display recipe details using short links.
 
-![Screenshot](sample_rendering.jpeg)
+![Screenshot](sample.jpeg)
 
 ## Features
 
@@ -13,29 +13,15 @@ This project is a simple web application that allows sharing and viewing recipes
 - Multilingual support (English and German)
 - Copy recipe links and markdown format
 
-## Setup
+>[WARNING]
+>This project is not affiliated with KptnCook.com and is a quick, hacked together project done in a few hours. 
+>Use at your own risk and don't judge the code quality too harshly. ;-D
 
-1. Clone the repository
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Set up your environment variables:
-   - Create a `.env` file in the root directory
-   - Add your KptnCook API key:
-     ```
-     KPTNCOOK_API_KEY=your_api_key_here
-     ```
+## Setup & Usage
 
-## Usage
+This project written to be deployed to [Netlify](https://www.netlify.com/).
 
-1. Start the development server:
-   ```
-   npm run build
-   npm start
-   ```
-2. Open your browser and navigate to `http://localhost:3000`
-3. Enter a KptnCook recipe short link in the input field and click "Get Recipe"
+Remember to set `KPTNCOOK_API_KEY` as an environment variable in Netlify and setup `npm run build` as a build command.
 
 ## Project Structure
 
