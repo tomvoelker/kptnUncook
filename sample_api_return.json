@@ -1,0 +1,3907 @@
+[
+    {
+        "_id": {
+            "$oid": "61fa41065300007b04c38797"
+        },
+        "title": "Zucchini-Orzo mit gerösteten Cherrytomaten",
+        "rtype": "Veggie",
+        "gdocs": "2738",
+        "authorComment": "So, so, heute gibt's also Orzo!",
+        "uid": "57dc7b14",
+        "preparationTime": 30,
+        "cookingTime": 0,
+        "recipeNutrition": {
+            "calories": 515,
+            "protein": 17,
+            "fat": 11,
+            "carbohydrate": 88
+        },
+        "activeTags": [
+            "batch_cooking",
+            "diet_vegetarian",
+            "budget_above_15_us",
+            "main_dish",
+            "diet_pescetarian",
+            "dinner_lunch",
+            "calories_under_600",
+            "main_ingredient_salad",
+            "main_ingredient_vegetables",
+            "main_ingredient_pasta",
+            "to_go"
+        ],
+        "steps": [
+            {
+                "title": "Alles parat?",
+                "image": {
+                    "name": "REZ_2738_01.jpg",
+                    "url": "https://images.kptncook.com/620a1d3a500000b5020ec935.jpg",
+                    "type": "step"
+                }
+            },
+            {
+                "title": "Orzo nach Packungsanleitung kochen.",
+                "ingredients": [
+                    {
+                        "unit": {
+                            "quantity": 100,
+                            "measure": "g"
+                        },
+                        "ingredientId": "5d91a49c4e000082f44ee707",
+                        "title": "Orzo (Nudelreis)",
+                        "numberTitle": {
+                            "singular": "Orzo (Nudelreis)",
+                            "plural": "Orzo (Nudelreis)"
+                        }
+                    }
+                ],
+                "image": {
+                    "name": "REZ_2738_02.jpg",
+                    "url": "https://images.kptncook.com/620a1d3a500000b5020ec936.jpg",
+                    "type": "step"
+                }
+            },
+            {
+                "title": "Währenddessen Zucchini waschen und in kleine Würfel schneiden.",
+                "ingredients": [
+                    {
+                        "ingredientId": "52bc300591217a7503a8adb9",
+                        "title": "Zucchini",
+                        "numberTitle": {
+                            "singular": "Zucchini",
+                            "plural": "Zucchini"
+                        }
+                    }
+                ],
+                "image": {
+                    "name": "REZ_2738_03.jpg",
+                    "url": "https://images.kptncook.com/61b732dd3b00006e05070010.jpg"
+                }
+            },
+            {
+                "title": "Cherrytomaten waschen und abtropfen lassen.",
+                "ingredients": [
+                    {
+                        "unit": {
+                            "quantity": 75,
+                            "measure": "g"
+                        },
+                        "ingredientId": "623ae43c520000a90c76d1ff",
+                        "title": "Cherrytomate",
+                        "numberTitle": {
+                            "singular": "Cherrytomate",
+                            "plural": "Cherrytomaten"
+                        }
+                    }
+                ],
+                "image": {
+                    "name": "REZ_2738_04.jpg",
+                    "url": "https://images.kptncook.com/60770ea16900008e00e78e3e.jpg"
+                }
+            },
+            {
+                "title": "Öl in einer Pfanne erhitzen und Cherrytomaten und Zucchini 10 min. braten, bis sie gar sind.",
+                "ingredients": [
+                    {
+                        "unit": {
+                            "quantity": 0.5,
+                            "measure": "EL"
+                        },
+                        "ingredientId": "52bc0dfc91217aec00a8ad3f",
+                        "title": "Olivenöl",
+                        "numberTitle": {
+                            "singular": "Olivenöl",
+                            "plural": "Olivenöl"
+                        }
+                    }
+                ],
+                "image": {
+                    "name": "REZ_2738_05.jpg",
+                    "url": "https://images.kptncook.com/620a1d3a500000b5020ec937.jpg",
+                    "type": "step"
+                }
+            },
+            {
+                "title": "Zitrone gründlich mit heißem Wasser waschen, Schale abreiben, halbieren und den Saft auspressen.",
+                "ingredients": [
+                    {
+                        "unit": {
+                            "quantity": 0.5
+                        },
+                        "ingredientId": "52bc2ffb91217a7503a8adb8",
+                        "title": "Zitrone",
+                        "numberTitle": {
+                            "singular": "Zitrone",
+                            "plural": "Zitronen"
+                        }
+                    }
+                ],
+                "image": {
+                    "name": "REZ_2738_06.jpg",
+                    "url": "https://images.kptncook.com/6077102f6900008e00e790b2.jpg"
+                }
+            },
+            {
+                "title": "Petersilie waschen, trocken schütteln und fein hacken.",
+                "ingredients": [
+                    {
+                        "unit": {
+                            "quantity": 15,
+                            "measure": "g"
+                        },
+                        "ingredientId": "52bc2f1f91217a3903a8adab",
+                        "title": "Petersilie, frisch",
+                        "numberTitle": {
+                            "singular": "Petersilie, frisch",
+                            "plural": "Petersilie, frisch"
+                        }
+                    }
+                ],
+                "image": {
+                    "name": "REZ_2738_07.jpg",
+                    "url": "https://images.kptncook.com/61bc69734b0000f9035f7a4e.jpg"
+                }
+            },
+            {
+                "title": "Schalotte schälen und fein würfeln.",
+                "ingredients": [
+                    {
+                        "unit": {
+                            "quantity": 0.5
+                        },
+                        "ingredientId": "52bc2f9991217a5903a8adb2",
+                        "title": "Schalotte",
+                        "numberTitle": {
+                            "singular": "Schalotte",
+                            "plural": "Schalotten"
+                        }
+                    }
+                ],
+                "image": {
+                    "name": "REZ_2738_08.jpg",
+                    "url": "https://images.kptncook.com/60be3108450000ed13dcb393.jpg"
+                }
+            },
+            {
+                "title": "Pinienkerne in einer Pfanne ohne Öl goldbraun rösten.",
+                "ingredients": [
+                    {
+                        "unit": {
+                            "quantity": 5,
+                            "measure": "g"
+                        },
+                        "ingredientId": "52bc33dd91217ae703a8adcc",
+                        "title": "Pinienkern",
+                        "numberTitle": {
+                            "singular": "Pinienkern",
+                            "plural": "Pinienkerne"
+                        }
+                    }
+                ],
+                "image": {
+                    "name": "REZ_2738_09.jpg",
+                    "url": "https://images.kptncook.com/607711ef6900008f00e7932c.jpg"
+                }
+            },
+            {
+                "title": "Zucchini, Cherrytomaten, Zitronensaft und -abrieb, Petersilie, Schalotten, Chiliflocken und Orzo mischen. Mit Salz und Pfeffer würzen.",
+                "ingredients": [
+                    {
+                        "ingredientId": "553652364900001b1550a3ea",
+                        "title": "Salz",
+                        "numberTitle": {
+                            "singular": "Salz",
+                            "plural": "Salz"
+                        }
+                    },
+                    {
+                        "ingredientId": "55365112490000f41450a3e6",
+                        "title": "Pfeffer",
+                        "numberTitle": {
+                            "singular": "Pfeffer",
+                            "plural": "Pfeffer"
+                        }
+                    },
+                    {
+                        "unit": {
+                            "quantity": 0.25,
+                            "measure": "TL"
+                        },
+                        "ingredientId": "55364246490000711350a3d2",
+                        "title": "Chiliflocke",
+                        "numberTitle": {
+                            "singular": "Chiliflocke",
+                            "plural": "Chiliflocken"
+                        }
+                    }
+                ],
+                "image": {
+                    "name": "REZ_2738_10.jpg",
+                    "url": "https://images.kptncook.com/620a1d3a500000b5020ec938.jpg",
+                    "type": "step"
+                }
+            },
+            {
+                "title": "Mit zerbröseltem Feta und Pinienkernen garnieren und genießen.",
+                "ingredients": [
+                    {
+                        "unit": {
+                            "quantity": 10,
+                            "measure": "g"
+                        },
+                        "ingredientId": "623b22774b00001308244d9e",
+                        "title": "Feta Käse",
+                        "numberTitle": {
+                            "singular": "Feta Käse",
+                            "plural": "Feta Käse"
+                        }
+                    }
+                ],
+                "image": {
+                    "name": "REZ_2738_11.jpg",
+                    "url": "https://images.kptncook.com/620a1d3a500000b5020ec939.jpg",
+                    "type": "step"
+                }
+            }
+        ],
+        "authors": [
+            {
+                "_id": {
+                    "$oid": "59eefb8fea08004509f3f2ad"
+                },
+                "name": "Jodie",
+                "link": "https://www.kptncook.com",
+                "title": "KptnCook",
+                "description": "Engländerin in Berlin, die vegetarische und vegane Rezepte aus aller Welt kocht.",
+                "sponsor": "no",
+                "authorImage": {
+                    "name": "Author_Jodie_KptnCook.png",
+                    "url": "https://images.kptncook.com/59ef520eea08007110f3f2cb.jpg"
+                },
+                "freeUserRecipeAccess": false,
+                "creationDate": {
+                    "$date": 1508834191118
+                },
+                "updateDate": {
+                    "$date": 1710777278370
+                }
+            }
+        ],
+        "retailers": [
+            {
+                "_id": {
+                    "$oid": "532f5ddcf8b4222e28731609"
+                },
+                "rkey": "edekaecenter",
+                "key": "edeka-center",
+                "name": "Edeka",
+                "status": "active",
+                "typ": "store",
+                "country": "de",
+                "priceUpdate": "Die Preise verstehen sich als Richtpreise. Dabei sind alle Angaben ohne Gewähr.",
+                "mapStatus": "active",
+                "onlineOrderingState": false,
+                "creationDate": {
+                    "$date": 1395613148182
+                },
+                "updateDate": {
+                    "$date": 1597401219551
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "52b80d660f5e989d00f9d2a7"
+                },
+                "rkey": "rewe",
+                "key": "rewe",
+                "name": "Rewe",
+                "status": "active",
+                "typ": "store",
+                "country": "de",
+                "priceUpdate": "Alle Angaben ohne Gewähr. Ladenpreise REWE Berlin, vom 28.09.2019",
+                "mapStatus": "active",
+                "onlineOrderingState": true,
+                "creationDate": {
+                    "$date": 1387793766440
+                },
+                "updateDate": {
+                    "$date": 1590307954128
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "59dcb17a9e0000b006e253da"
+                },
+                "key": "kaufland",
+                "name": "Kaufland",
+                "status": "active",
+                "typ": "store",
+                "country": "de",
+                "priceUpdate": "Alle Angaben ohne Gewähr. Ladenpreise Kaufland Berlin Neukölln Arcaden, vom 20.01.2020",
+                "mapStatus": "active",
+                "onlineOrderingState": false,
+                "creationDate": {
+                    "$date": 1507635578226
+                },
+                "updateDate": {
+                    "$date": 1590570847125
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "56953519190000bf0d27346e"
+                },
+                "key": "denns",
+                "name": "denn's Biomarkt",
+                "status": "active",
+                "typ": "store",
+                "country": "de",
+                "priceUpdate": "Alle Angaben ohne Gewähr. Preise vom 19.06.2017",
+                "mapStatus": "active",
+                "onlineOrderingState": false,
+                "creationDate": {
+                    "$date": 1452619033288
+                },
+                "updateDate": {
+                    "$date": 1590570909304
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "53805d62a8a4f14a1dc15aee"
+                },
+                "rkey": "alnatura",
+                "key": "alnatura",
+                "name": "Alnatura",
+                "status": "active",
+                "typ": "store",
+                "country": "de",
+                "priceUpdate": "Alle Angaben ohne Gewähr. Ladenpreise Alnatura Berlin, vom 14.08.2015",
+                "mapStatus": "active",
+                "onlineOrderingState": false,
+                "creationDate": {
+                    "$date": 1400921442054
+                },
+                "updateDate": {
+                    "$date": 1590570958875
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "52b80d9b0f5e98a800f9d2a9"
+                },
+                "rkey": "biocompany",
+                "key": "biocompany",
+                "name": "Bio Company",
+                "status": "active",
+                "typ": "store",
+                "country": "de",
+                "priceUpdate": "Alle Angaben ohne Gewähr. Ladenpreise Bio Company Berlin, vom 25.04.2017",
+                "mapStatus": "active",
+                "discount": 0,
+                "onlineOrderingState": false,
+                "creationDate": {
+                    "$date": 1387793819526
+                },
+                "updateDate": {
+                    "$date": 1590571002450
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "569825da15000055175b31a1"
+                },
+                "key": "real",
+                "name": "real",
+                "status": "inactive",
+                "typ": "store",
+                "country": "de",
+                "priceUpdate": "Alle Angaben ohne Gewähr. Ladenpreise real,- Berlin, vom 08.06.2017",
+                "mapStatus": "active",
+                "onlineOrderingState": false,
+                "creationDate": {
+                    "$date": 1452811738040
+                },
+                "updateDate": {
+                    "$date": 1680094269016
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "538dab8697169d59149ddf66"
+                },
+                "rkey": "tegut",
+                "key": "tegut...",
+                "name": "tegut...",
+                "status": "active",
+                "typ": "store",
+                "country": "de",
+                "priceUpdate": "Alle Angaben ohne Gewähr. Ladenpreise tegut... Jena, vom 04.06.2016",
+                "mapStatus": "active",
+                "onlineOrderingState": false,
+                "creationDate": {
+                    "$date": 1401793414244
+                },
+                "updateDate": {
+                    "$date": 1680691105443
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "530366d751638da708100cf3"
+                },
+                "rkey": "safeway",
+                "key": "safeway",
+                "name": "Safeway",
+                "status": "active",
+                "typ": "store",
+                "country": "us",
+                "priceUpdate": "Prices and products are subject to change without notice.",
+                "mapStatus": "active",
+                "creationDate": {
+                    "$date": 1392731863318
+                },
+                "updateDate": {
+                    "$date": 1440069510689
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "5303670c51638db208100cf4"
+                },
+                "rkey": "wholefoods",
+                "key": "wholefoods",
+                "name": "Whole Foods",
+                "status": "active",
+                "typ": "store",
+                "country": "us",
+                "priceUpdate": "Prices and products are subject to change without notice.",
+                "mapStatus": "active",
+                "creationDate": {
+                    "$date": 1392731916381
+                },
+                "updateDate": {
+                    "$date": 1438088117458
+                }
+            },
+            {
+                "_id": {
+                    "$oid": "636114534900007700ae9eb9"
+                },
+                "key": "aldi",
+                "name": "Aldi",
+                "status": "inactive",
+                "typ": "store",
+                "country": "de",
+                "priceUpdate": "Text bitte updaten",
+                "mapStatus": "inactive",
+                "onlineOrderingState": false,
+                "creationDate": {
+                    "$date": 1667306579806
+                },
+                "updateDate": {
+                    "$date": 1677668040560
+                }
+            }
+        ],
+        "ingredients": [
+            {
+                "ingredient": {
+                    "_id": {
+                        "$oid": "55365112490000f41450a3e6"
+                    },
+                    "typ": "basic",
+                    "title": "Pfeffer",
+                    "numberTitle": {
+                        "singular": "Pfeffer",
+                        "plural": "Pfeffer"
+                    },
+                    "uncountableTitle": "Pfeffer",
+                    "category": "SpicesSeasoning",
+                    "key": "pepperpfefferpepperpfeffer",
+                    "desc": "pepperpfefferpepperpfeffer",
+                    "image": {
+                        "name": "spices_pepper_s.jpg",
+                        "url": "https://images.kptncook.com/5bbb78e82800009a00888456.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "5734a0a617000002086c9287"
+                            },
+                            "title": "Ostmann Pfeffer schwarz, gemahlen",
+                            "ingredient": "55365112490000f41450a3e6",
+                            "retailer": "5707c9a61700009411f175cf",
+                            "price": 2.39,
+                            "quantity": 40,
+                            "newQuantity": 40,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1463066790048
+                            },
+                            "updateDate": {
+                                "$date": 1662982247004
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5bd8346e4f00004305dace81"
+                            },
+                            "title": "REWE Bio Pfeffer schwarz ganz",
+                            "ingredient": "55365112490000f41450a3e6",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 3.99,
+                            "quantity": 45,
+                            "newQuantity": 45,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1540895854024
+                            },
+                            "updateDate": {
+                                "$date": 1540895854024
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5bfeb40f3d00005a0b8e6588"
+                            },
+                            "title": "Ostmann Pfeffer schwarz, gemahlen",
+                            "ingredient": "55365112490000f41450a3e6",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 2.29,
+                            "quantity": 50,
+                            "newQuantity": 50,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1543418895354
+                            },
+                            "updateDate": {
+                                "$date": 1543418895354
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5e203dcf5400007fdd9df7a7"
+                            },
+                            "title": "BioWagner Bio-Pfeffer schwarz, ganz",
+                            "ingredient": "55365112490000f41450a3e6",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 3.69,
+                            "quantity": 80,
+                            "newQuantity": 80,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1579171279194
+                            },
+                            "updateDate": {
+                                "$date": 1661760128483
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5ed6630ecf0000bd12b75cb3"
+                            },
+                            "title": "Lebensbaum Pfeffer schwarz, ganz",
+                            "ingredient": "55365112490000f41450a3e6",
+                            "retailer": "52b80d9b0f5e98a800f9d2a9",
+                            "price": 2.99,
+                            "quantity": 50,
+                            "newQuantity": 50,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1591108366005
+                            },
+                            "updateDate": {
+                                "$date": 1591108366005
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5ed74b1d6500007992c7e630"
+                            },
+                            "title": "Fuchs Pfeffer",
+                            "ingredient": "55365112490000f41450a3e6",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 3.59,
+                            "quantity": 60,
+                            "newQuantity": 60,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1591167773052
+                            },
+                            "updateDate": {
+                                "$date": 1591167773052
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5ede43115f010043946c0efc"
+                            },
+                            "title": "Alnatura schwarzer Pfeffer",
+                            "ingredient": "55365112490000f41450a3e6",
+                            "retailer": "53805d62a8a4f14a1dc15aee",
+                            "price": 2.79,
+                            "quantity": 70,
+                            "newQuantity": 70,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1591624465830
+                            },
+                            "updateDate": {
+                                "$date": 1591624465830
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5ede6e0e450000590b618f7f"
+                            },
+                            "title": "Lebensbaum Pfeffer schwarz, ganz",
+                            "ingredient": "55365112490000f41450a3e6",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 2.99,
+                            "quantity": 50,
+                            "newQuantity": 50,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1591635470112
+                            },
+                            "updateDate": {
+                                "$date": 1591635470112
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "63629ac15200004b0055a13d"
+                            },
+                            "title": "Gut Bio Bio Pfeffer",
+                            "ingredient": "55365112490000f41450a3e6",
+                            "retailer": "636114534900007700ae9eb9",
+                            "price": 1.49,
+                            "quantity": 40,
+                            "newQuantity": 40,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1667406528267
+                            },
+                            "updateDate": {
+                                "$date": 1669128252225
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "brands": [],
+                    "creationDate": {
+                        "$date": 1429623058725
+                    },
+                    "updateDate": {
+                        "$date": 1711029414109
+                    }
+                }
+            },
+            {
+                "ingredient": {
+                    "_id": {
+                        "$oid": "553652364900001b1550a3ea"
+                    },
+                    "typ": "basic",
+                    "title": "Salz",
+                    "numberTitle": {
+                        "singular": "Salz",
+                        "plural": "Salz"
+                    },
+                    "uncountableTitle": "Salz",
+                    "category": "SpicesSeasoning",
+                    "key": "saltsalzsaltsalz",
+                    "desc": "saltsalzsaltsalz",
+                    "image": {
+                        "name": "spices_salt_s.jpg",
+                        "url": "https://images.kptncook.com/5bb7819a27000039048a8f79.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "55964f1c7800000707b7d0f7"
+                            },
+                            "title": "Salt",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "5592887e310000d11c5237e1",
+                            "price": 1.99,
+                            "quantity": 1,
+                            "newQuantity": 1.59,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1435914012792
+                            },
+                            "updateDate": {
+                                "$date": 1435914012792
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "573dc44f5500003c063ed78c"
+                            },
+                            "title": "Bad Reichenhaller Jodsalz",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "5707c9a61700009411f175cf",
+                            "price": 0.99,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1463665743284
+                            },
+                            "updateDate": {
+                                "$date": 1662982197380
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5bdacd6549000006035f7837"
+                            },
+                            "title": "Bad Reichenhaller Marken-Jodsalz",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 0.85,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1541066085321
+                            },
+                            "updateDate": {
+                                "$date": 1541066085321
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5be318ce380000e9028945de"
+                            },
+                            "title": "Bad Reichenhaller Marken Jodsalz",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 0.69,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1541609678654
+                            },
+                            "updateDate": {
+                                "$date": 1662461353169
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5bfebe4e3d00000f0d8e6594"
+                            },
+                            "title": "Bad Reichenhaller Jodsalz",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 0.99,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1543421518873
+                            },
+                            "updateDate": {
+                                "$date": 1543421518873
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5e203dcf5400007fdd9df8d1"
+                            },
+                            "title": "Bad Reichenhaller Marken Jod Salz",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 1.14,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1579171279234
+                            },
+                            "updateDate": {
+                                "$date": 1661759263032
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5ed6603acf0000bd12b75caa"
+                            },
+                            "title": "Natur Hurtig Salz",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "52b80d9b0f5e98a800f9d2a9",
+                            "price": 1.99,
+                            "quantity": 1000,
+                            "newQuantity": 1000,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1591107642971
+                            },
+                            "updateDate": {
+                                "$date": 1591107642971
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5ede4a08450000590b618f48"
+                            },
+                            "title": "Rapunzel Salz",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "53805d62a8a4f14a1dc15aee",
+                            "price": 1.79,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1591626248302
+                            },
+                            "updateDate": {
+                                "$date": 1591626248302
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5fca5e92430000b60a30c99c"
+                            },
+                            "title": "salt",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "530366d751638da708100cf3",
+                            "price": 1.99,
+                            "quantity": 1,
+                            "newQuantity": 1.59,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1607098002866
+                            },
+                            "updateDate": {
+                                "$date": 1607098002866
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "6182584b4d000036009aef83"
+                            },
+                            "title": "Great Value Plain Salt",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "59d24cf7810000b9136d4d75",
+                            "price": 0.54,
+                            "quantity": 26,
+                            "newQuantity": 26,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1635932235954
+                            },
+                            "updateDate": {
+                                "$date": 1635932235954
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "627b6ed84e0000170110284e"
+                            },
+                            "title": "Bioenergie Ur-Salz fein gemahlen",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 2.99,
+                            "quantity": 1000,
+                            "newQuantity": 1000,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1652256472628
+                            },
+                            "updateDate": {
+                                "$date": 1652256472628
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "6374fe203f00001f04d09876"
+                            },
+                            "title": "Le Gusto Jodiertes Salz",
+                            "ingredient": "553652364900001b1550a3ea",
+                            "retailer": "636114534900007700ae9eb9",
+                            "price": 0.29,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1668611616482
+                            },
+                            "updateDate": {
+                                "$date": 1669128252225
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "brands": [
+                        {
+                            "id": "662f53b04b00005800e474e4",
+                            "name": "SALDORO (720g)",
+                            "countries": [
+                                "de",
+                                "at",
+                                "ch",
+                                "gb"
+                            ],
+                            "ingredientTitle": {
+                                "singular": "Rosa Ursalz",
+                                "plural": "Rosa Ursalz"
+                            },
+                            "uncountableTitle": "Rosa Ursalz",
+                            "ingredientImage": null
+                        }
+                    ],
+                    "creationDate": {
+                        "$date": 1429623350034
+                    },
+                    "updateDate": {
+                        "$date": 1714377669259
+                    }
+                }
+            },
+            {
+                "quantity": 100,
+                "measure": "g",
+                "metricQuantity": 100,
+                "metricMeasure": "g",
+                "metricQuantityProd": 100,
+                "quantityUS": 0.5,
+                "measureUS": "cup(s)",
+                "imperialQuantity": 0.5,
+                "imperialMeasure": "Tasse(n)",
+                "quantityUSProd": 3.5,
+                "measureUSProd": "oz",
+                "imperialProductQuantity": 3.5,
+                "imperialProductMeasure": "oz",
+                "canBeRemoved": false,
+                "changeable": true,
+                "ingredient": {
+                    "_id": {
+                        "$oid": "5d91a49c4e000082f44ee707"
+                    },
+                    "typ": "regular",
+                    "title": "Orzo (Nudelreis)",
+                    "numberTitle": {
+                        "singular": "Orzo (Nudelreis)",
+                        "plural": "Orzo (Nudelreis)"
+                    },
+                    "uncountableTitle": "Orzo (Nudelreis)",
+                    "category": "Pasta",
+                    "key": "orzoorzo(nudelreis)orzoorzo(nudelreis)",
+                    "desc": "orzoorzo(nudelreis)orzoorzo(nudelreis)",
+                    "image": {
+                        "name": "pasta_orzo_s.jpg",
+                        "url": "https://images.kptncook.com/f2c32d53-ee58-44c2-b331-6078b24d654d.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "5d930571660000d545e9a4ab"
+                            },
+                            "title": "Mylos Kritharaki",
+                            "ingredient": "5d91a49c4e000082f44ee707",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 1.19,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1569916273439
+                            },
+                            "updateDate": {
+                                "$date": 1569916273439
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5d93097a660000d545e9a4ac"
+                            },
+                            "title": "Kattus Kritharaki Nudeln",
+                            "ingredient": "5d91a49c4e000082f44ee707",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 2.18,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1569917306248
+                            },
+                            "updateDate": {
+                                "$date": 1569917306248
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5d9309f4660000d545e9a4ad"
+                            },
+                            "title": "Kattus Kritharaki Nudeln",
+                            "ingredient": "5d91a49c4e000082f44ee707",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 1.79,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1569917428635
+                            },
+                            "updateDate": {
+                                "$date": 1569917428635
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5d930d56660000d545e9a4ae"
+                            },
+                            "title": "Rapunzel Risoni Semola Pasta in Reisform",
+                            "ingredient": "5d91a49c4e000082f44ee707",
+                            "retailer": "53805d62a8a4f14a1dc15aee",
+                            "price": 1.19,
+                            "quantity": 250,
+                            "newQuantity": 250,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1569918294337
+                            },
+                            "updateDate": {
+                                "$date": 1569918294337
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5d930e78660000d545e9a4af"
+                            },
+                            "title": "Rapunzel Risoni Semola Pasta in Reisform",
+                            "ingredient": "5d91a49c4e000082f44ee707",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 1.19,
+                            "quantity": 250,
+                            "newQuantity": 250,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1569918584959
+                            },
+                            "updateDate": {
+                                "$date": 1569918584959
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5d93129e660000d545e9a4b0"
+                            },
+                            "title": "Rapunzel Risoni Semola Pasta in Reisform",
+                            "ingredient": "5d91a49c4e000082f44ee707",
+                            "retailer": "52b80d9b0f5e98a800f9d2a9",
+                            "price": 1.19,
+                            "quantity": 250,
+                            "newQuantity": 250,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1569919646971
+                            },
+                            "updateDate": {
+                                "$date": 1569919646971
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5d93135f660000d545e9a4b2"
+                            },
+                            "title": "Barilla® Pasta Orzo",
+                            "ingredient": "5d91a49c4e000082f44ee707",
+                            "retailer": "530366d751638da708100cf3",
+                            "price": 2.29,
+                            "quantity": 16,
+                            "newQuantity": 16,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1569919839470
+                            },
+                            "updateDate": {
+                                "$date": 1569919839470
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5d9313aa660000d545e9a4b3"
+                            },
+                            "title": "Whole Foods Market Organic Orzo",
+                            "ingredient": "5d91a49c4e000082f44ee707",
+                            "retailer": "5303670c51638db208100cf4",
+                            "price": 1.99,
+                            "quantity": 16,
+                            "newQuantity": 16,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1569919914433
+                            },
+                            "updateDate": {
+                                "$date": 1569919914433
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5e26abde4f00009e5f166a6a"
+                            },
+                            "title": "Barilla Risoni italienische Pasta",
+                            "ingredient": "5d91a49c4e000082f44ee707",
+                            "retailer": "538dab8697169d59149ddf66",
+                            "price": 1.59,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1579592670997
+                            },
+                            "updateDate": {
+                                "$date": 1579592670997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5e203dcf5400007fdd9df787"
+                            },
+                            "title": "Barilla Risoni italienische Pasta",
+                            "ingredient": "5d91a49c4e000082f44ee707",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 1.59,
+                            "newQuantity": 500,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1579171279191
+                            },
+                            "updateDate": {
+                                "$date": 1579171279191
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "synonym": "Orzo,Orzo-Nudeln,Nudelreis,Orzo-Risotto,Orzonudeln,Orzo (Nudelreis),Orzo Nudelreis",
+                    "brands": [],
+                    "creationDate": {
+                        "$date": 1569825948974
+                    },
+                    "updateDate": {
+                        "$date": 1718174007923
+                    }
+                }
+            },
+            {
+                "quantity": 0.5,
+                "metricQuantity": 0.5,
+                "metricQuantityProd": 0.5,
+                "quantityUS": 0.5,
+                "imperialQuantity": 0.5,
+                "quantityUSProd": 0.5,
+                "imperialProductQuantity": 0.5,
+                "canBeRemoved": false,
+                "changeable": true,
+                "ingredient": {
+                    "_id": {
+                        "$oid": "52bc2ffb91217a7503a8adb8"
+                    },
+                    "typ": "regular",
+                    "title": "Zitrone",
+                    "numberTitle": {
+                        "singular": "Zitrone",
+                        "plural": "Zitronen"
+                    },
+                    "uncountableTitle": "Zitrone",
+                    "category": "FruitVegetables",
+                    "key": "lemonzitronelemonszitronen",
+                    "desc": "lemonzitronelemonszitronen",
+                    "image": {
+                        "name": "fruits_lemon_s.jpg",
+                        "url": "https://images.kptncook.com/5bb758c1290000d1136fb208.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "52c6e21a43d2f34c01cf87e3"
+                            },
+                            "title": "Bio Zitrone, lose",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "52b80d9b0f5e98a800f9d2a9",
+                            "price": 0.49,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1388765722224
+                            },
+                            "updateDate": {
+                                "$date": 1453456698895
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52c54baae4b76e8a01fccf2d"
+                            },
+                            "title": "Zitrone, lose",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "52b80d920f5e98a200f9d2a8",
+                            "price": 0.99,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1388661674604
+                            },
+                            "updateDate": {
+                                "$date": 1441116973196
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53822686ab508af513ba11c0"
+                            },
+                            "title": "Zitrone, lose ca. 140g",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "53805d62a8a4f14a1dc15aee",
+                            "price": 0.55,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1401038470228
+                            },
+                            "updateDate": {
+                                "$date": 1462194920160
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "538e549197169d1b329ddfcb"
+                            },
+                            "title": "Bio Zitrone, lose",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "538dab8697169d59149ddf66",
+                            "price": 0.79,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1401836689822
+                            },
+                            "updateDate": {
+                                "$date": 1461860825057
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53ee8fb35400004404098063"
+                            },
+                            "title": "Lemon",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "5303670c51638db208100cf4",
+                            "price": 0.89,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1408143283513
+                            },
+                            "updateDate": {
+                                "$date": 1408901049122
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53ed665a4900006d06a42174"
+                            },
+                            "title": "Lemon",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "530366d751638da708100cf3",
+                            "price": 0.99,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1408067162709
+                            },
+                            "updateDate": {
+                                "$date": 1409807506114
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "54ce2fcd7f0700ab08e7f1d2"
+                            },
+                            "title": "Zitrone, lose",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "54c65feff70700f7078405dc",
+                            "price": 0.59,
+                            "newQuantity": 1,
+                            "cbid": "zitrone",
+                            "creationDate": {
+                                "$date": 1422798797297
+                            },
+                            "updateDate": {
+                                "$date": 1462194975995
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52c83df9827be8440022751c"
+                            },
+                            "title": "Bio Zitrone, lose ",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 0.79,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1388854777648
+                            },
+                            "updateDate": {
+                                "$date": 1522163621675
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "55963cbc780000bb03b7d0b1"
+                            },
+                            "title": "Lemon",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "5592887e310000d11c5237e1",
+                            "price": 0.39,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1435909308400
+                            },
+                            "updateDate": {
+                                "$date": 1435920545274
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "56990b5b1700004e0c1f5447"
+                            },
+                            "title": "Zitrone, lose ca. 120g",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 0.59,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1452870491110
+                            },
+                            "updateDate": {
+                                "$date": 1540212122918
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "56cc5fa7150000581a6f0b7d"
+                            },
+                            "title": "Zitrone, lose",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 0.69,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1456234407986
+                            },
+                            "updateDate": {
+                                "$date": 1496917230558
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5735a47b800000870670a89b"
+                            },
+                            "title": "Zitrone, lose",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "5707c9a61700009411f175cf",
+                            "price": 0.79,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1463133307118
+                            },
+                            "updateDate": {
+                                "$date": 1465475356378
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5798893f1904005f0a3d499f"
+                            },
+                            "title": "Bio Zitrone, lose",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 0.99,
+                            "quantity": 1,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1469614399980
+                            },
+                            "updateDate": {
+                                "$date": 1662461520784
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "590fb8ef4d0000e30e54f201"
+                            },
+                            "title": "Bio Zitrone, lose",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "52eed7dabd9d783207851c88",
+                            "price": 0.99,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1494202607177
+                            },
+                            "updateDate": {
+                                "$date": 1494202636206
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "60f6dd583c0000010f61d422"
+                            },
+                            "title": "Demeter Zitronen 400g",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 0.63,
+                            "quantity": 1,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1626791256918
+                            },
+                            "updateDate": {
+                                "$date": 1626791256918
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "6168426b3f00006700922366"
+                            },
+                            "title": "lemon ",
+                            "ingredient": "52bc2ffb91217a7503a8adb8",
+                            "retailer": "59d24cf7810000b9136d4d75",
+                            "price": 0.52,
+                            "quantity": 1,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1634222699310
+                            },
+                            "updateDate": {
+                                "$date": 1634222699310
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "note": "Wenn du Zitronenschale in einem Rezept nutzen möchtest, empfehlen wir Bio-Zitronen zu verwenden.",
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "synonym": "Zitrone-,Zitronen-,Bio-Zitronen",
+                    "brands": [],
+                    "creationDate": {
+                        "$date": 1388064763810
+                    },
+                    "updateDate": {
+                        "$date": 1711093815830
+                    }
+                }
+            },
+            {
+                "quantity": 15,
+                "measure": "g",
+                "metricQuantity": 15,
+                "metricMeasure": "g",
+                "metricQuantityProd": 15,
+                "quantityUS": 0.75,
+                "measureUS": "cup(s)",
+                "imperialQuantity": 0.75,
+                "imperialMeasure": "Tasse(n)",
+                "quantityUSProd": 0.5,
+                "measureUSProd": "oz",
+                "imperialProductQuantity": 0.5,
+                "imperialProductMeasure": "oz",
+                "canBeRemoved": false,
+                "changeable": true,
+                "ingredient": {
+                    "_id": {
+                        "$oid": "52bc2f1f91217a3903a8adab"
+                    },
+                    "typ": "regular",
+                    "title": "Petersilie, frisch",
+                    "numberTitle": {
+                        "singular": "Petersilie, frisch",
+                        "plural": "Petersilie, frisch"
+                    },
+                    "uncountableTitle": "Petersilie, frisch",
+                    "category": "FruitVegetables",
+                    "key": "parsley,freshpetersilie,frischparsley,freshpetersilie,frisch",
+                    "desc": "parsley,freshpetersilie,frischparsley,freshpetersilie,frisch",
+                    "image": {
+                        "name": "herbs_parsley_s.jpg",
+                        "url": "https://images.kptncook.com/5bb76843290000c4176fb24b.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "52c83fd4827be88300227528"
+                            },
+                            "title": "Petersilie frisch (Schale)",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 0.99,
+                            "newQuantity": 30,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1388855252003
+                            },
+                            "updateDate": {
+                                "$date": 1494190916874
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52c6e59243d2f38b01cf87ec"
+                            },
+                            "title": "Petersilie frisch",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "52b80d9b0f5e98a800f9d2a9",
+                            "price": 1.49,
+                            "newQuantity": 25,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1388766610450
+                            },
+                            "updateDate": {
+                                "$date": 1462201359315
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53826105ff5374fb1ef20fb6"
+                            },
+                            "title": "Petersilie frisch",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "53805d62a8a4f14a1dc15aee",
+                            "price": 1.49,
+                            "newQuantity": 30,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1401053445853
+                            },
+                            "updateDate": {
+                                "$date": 1500037525393
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "538e50d6dbf613de31146467"
+                            },
+                            "title": "Bio Petersilie frisch, Bund",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "538dab8697169d59149ddf66",
+                            "price": 0.69,
+                            "newQuantity": 30,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1401835734037
+                            },
+                            "updateDate": {
+                                "$date": 1462201201780
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53ed42fb4900001901a420cd"
+                            },
+                            "title": "Parsley, bunch",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "530366d751638da708100cf3",
+                            "price": 0.99,
+                            "newQuantity": 1,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1408058107304
+                            },
+                            "updateDate": {
+                                "$date": 1462197705402
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53fa1e574600002501d2f8d3"
+                            },
+                            "title": "Organic Curly Parsley, bunch",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "5303670c51638db208100cf4",
+                            "price": 1.69,
+                            "newQuantity": 1.9,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1408900695118
+                            },
+                            "updateDate": {
+                                "$date": 1461849628110
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "54cd0d5ae20800b60d198f05"
+                            },
+                            "title": "Petersilie frisch, Bund",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "54c65feff70700f7078405dc",
+                            "price": 0.79,
+                            "newQuantity": 30,
+                            "measure": "g",
+                            "cbid": "petersilie",
+                            "creationDate": {
+                                "$date": 1422724442825
+                            },
+                            "updateDate": {
+                                "$date": 1462201349293
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52c545e8e4b76e1801fccf1d"
+                            },
+                            "title": "Petersilie glatt, Bund",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "52b80d920f5e98a200f9d2a8",
+                            "price": 0.99,
+                            "newQuantity": 50,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1388660200379
+                            },
+                            "updateDate": {
+                                "$date": 1462197725388
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5592b1383000000b05211549"
+                            },
+                            "title": "Fresh Parsley",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "5592887e310000d11c5237e1",
+                            "price": 1.19,
+                            "newQuantity": 3,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1435676984461
+                            },
+                            "updateDate": {
+                                "$date": 1435920822719
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5697bc30150000d30d5b3185"
+                            },
+                            "title": "Petersilie glatt, Bund",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 1.79,
+                            "newQuantity": 40,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1452784688632
+                            },
+                            "updateDate": {
+                                "$date": 1541414899961
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "56cc5f4e150000231a6f0b7c"
+                            },
+                            "title": "Petersilie glatt",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 0.99,
+                            "quantity": 40,
+                            "newQuantity": 40,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1456234318476
+                            },
+                            "updateDate": {
+                                "$date": 1456234318476
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5735d02e800000dc0c70a8db"
+                            },
+                            "title": "Küstengold Petersilie frisch, Topf",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "5707c9a61700009411f175cf",
+                            "price": 1.99,
+                            "newQuantity": 35,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1463144494420
+                            },
+                            "updateDate": {
+                                "$date": 1463144947119
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "579890c0190400b30b3d49cc"
+                            },
+                            "title": "Edeka Petersilie glatt",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 0.99,
+                            "quantity": 40,
+                            "newQuantity": 40,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1469616320904
+                            },
+                            "updateDate": {
+                                "$date": 1469616320904
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5e203dcf5400007fdd9df894"
+                            },
+                            "title": "K-Bio Petersilie, Topf",
+                            "ingredient": "52bc2f1f91217a3903a8adab",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 1.49,
+                            "quantity": 35,
+                            "newQuantity": 35,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1579171279229
+                            },
+                            "updateDate": {
+                                "$date": 1579535622667
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "synonym": "Petersilie,frische Petersilie",
+                    "brands": [],
+                    "creationDate": {
+                        "$date": 1388064543968
+                    },
+                    "updateDate": {
+                        "$date": 1711453799935
+                    }
+                }
+            },
+            {
+                "quantity": 0.5,
+                "measure": "EL",
+                "metricQuantity": 0.5,
+                "metricMeasure": "EL",
+                "metricQuantityProd": 7.5,
+                "quantityUS": 0.5,
+                "measureUS": "tbsp",
+                "imperialQuantity": 0.5,
+                "imperialMeasure": "EL",
+                "quantityUSProd": 0.5,
+                "imperialProductQuantity": 0.5,
+                "canBeRemoved": false,
+                "changeable": true,
+                "ingredient": {
+                    "_id": {
+                        "$oid": "52bc0dfc91217aec00a8ad3f"
+                    },
+                    "typ": "basic",
+                    "title": "Olivenöl",
+                    "numberTitle": {
+                        "singular": "Olivenöl",
+                        "plural": "Olivenöl"
+                    },
+                    "uncountableTitle": "Olivenöl",
+                    "category": "OilsVinegars",
+                    "key": "olive_oilolivenölolive_oilolivenöl",
+                    "desc": "olive_oilolivenölolive_oilolivenöl",
+                    "image": {
+                        "name": "oils_olive-oil_s.jpg",
+                        "url": "https://images.kptncook.com/5bb763df2900008e166fb232.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "52bc22e691217aef01a8ad72"
+                            },
+                            "title": "Kunella Natives Olivenöl extra kaltgepresst",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 2.99,
+                            "newQuantity": 250,
+                            "measure": "ml",
+                            "creationDate": {
+                                "$date": 1388061414488
+                            },
+                            "updateDate": {
+                                "$date": 1439891655192
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52c45a72622730d200bec7ad"
+                            },
+                            "title": "Rapunzel Olivenöl, nativ extra",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "52b80d9b0f5e98a800f9d2a9",
+                            "price": 3.99,
+                            "newQuantity": 250,
+                            "measure": "ml",
+                            "creationDate": {
+                                "$date": 1388599922028
+                            },
+                            "updateDate": {
+                                "$date": 1462292029943
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52c5a07937efa3b801ff2e6d"
+                            },
+                            "title": "BioZentrale Bio Olivenöl",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "52b80d920f5e98a200f9d2a8",
+                            "price": 2.49,
+                            "quantity": 100,
+                            "newQuantity": 100,
+                            "measure": "ml",
+                            "creationDate": {
+                                "$date": 1388683385058
+                            },
+                            "updateDate": {
+                                "$date": 1407828170191
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5381215ad26b9c7a21b4e844"
+                            },
+                            "title": "Alnatura ital. Olivenöl",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "53805d62a8a4f14a1dc15aee",
+                            "price": 8.49,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "ml",
+                            "creationDate": {
+                                "$date": 1400971610422
+                            },
+                            "updateDate": {
+                                "$date": 1666679648344
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "538dd6b6dbf613db1c146426"
+                            },
+                            "title": "Alnatura Bio Olivenöl",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "538dab8697169d59149ddf66",
+                            "price": 7.95,
+                            "newQuantity": 500,
+                            "measure": "ml",
+                            "creationDate": {
+                                "$date": 1401804470409
+                            },
+                            "updateDate": {
+                                "$date": 1452562272332
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53ed54b5490000d803a42123"
+                            },
+                            "title": "O Organics Extra Virgin Olive Oil",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "530366d751638da708100cf3",
+                            "price": 8.99,
+                            "quantity": 15,
+                            "newQuantity": 15.6,
+                            "measure": "fl oz",
+                            "creationDate": {
+                                "$date": 1408062645308
+                            },
+                            "updateDate": {
+                                "$date": 1657284954624
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53ee86485400008d03098054"
+                            },
+                            "title": "365 Everyday Value 100% Italian Extra Virgin Olive Oil",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "5303670c51638db208100cf4",
+                            "price": 5.99,
+                            "newQuantity": 16.9,
+                            "measure": "fl oz",
+                            "creationDate": {
+                                "$date": 1408140872023
+                            },
+                            "updateDate": {
+                                "$date": 1408929579480
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "54ce7e597f0700050ee7f1eb"
+                            },
+                            "title": "Basic Olivenöl",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "54c65feff70700f7078405dc",
+                            "price": 7.99,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "ml",
+                            "cbid": "olivenoel",
+                            "creationDate": {
+                                "$date": 1422818905181
+                            },
+                            "updateDate": {
+                                "$date": 1422818905181
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "559644377800000205b7d0c3"
+                            },
+                            "title": "Olive Oil",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "5592887e310000d11c5237e1",
+                            "price": 5.99,
+                            "newQuantity": 16.9,
+                            "measure": "fl oz",
+                            "creationDate": {
+                                "$date": 1435911223920
+                            },
+                            "updateDate": {
+                                "$date": 1435920491168
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5734af2d1700007a0a6c92cc"
+                            },
+                            "title": "Naturwert Bio Natives Olivenöl",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "5707c9a61700009411f175cf",
+                            "price": 4.69,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "ml",
+                            "creationDate": {
+                                "$date": 1463070509177
+                            },
+                            "updateDate": {
+                                "$date": 1662982302673
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5be2f41f5a0000ba17d36aa1"
+                            },
+                            "title": "Alnatura Bio Olivenöl",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 4.49,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "ml",
+                            "creationDate": {
+                                "$date": 1541600287909
+                            },
+                            "updateDate": {
+                                "$date": 1662461429960
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5bfe79ee3d00001b038e6549"
+                            },
+                            "title": "Livio natives Olivenöl",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 4.99,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "ml",
+                            "creationDate": {
+                                "$date": 1543404014417
+                            },
+                            "updateDate": {
+                                "$date": 1543404014417
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5e203dcf5400007fdd9df885"
+                            },
+                            "title": "K-Bio Natives Olivenöl",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 4.59,
+                            "quantity": 750,
+                            "newQuantity": 750,
+                            "measure": "ml",
+                            "creationDate": {
+                                "$date": 1579171279228
+                            },
+                            "updateDate": {
+                                "$date": 1579535732582
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5ede695c450000590b618f67"
+                            },
+                            "title": "dennree Olivenöl",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 2.49,
+                            "quantity": 500,
+                            "newQuantity": 500,
+                            "measure": "ml",
+                            "creationDate": {
+                                "$date": 1591634268211
+                            },
+                            "updateDate": {
+                                "$date": 1591634268211
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "63629ac05200006c0055a0c2"
+                            },
+                            "title": "Gut Bio Bio Olivenöl ",
+                            "ingredient": "52bc0dfc91217aec00a8ad3f",
+                            "retailer": "636114534900007700ae9eb9",
+                            "price": 4.99,
+                            "quantity": 750,
+                            "newQuantity": 750,
+                            "measure": "ml",
+                            "creationDate": {
+                                "$date": 1667406528248
+                            },
+                            "updateDate": {
+                                "$date": 1669130375632
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "synonym": "Öl,Olivenöl,Pflanzenöl,Pflanzliches Öl",
+                    "brands": [
+                        {
+                            "id": "62c84c02510000c103140276",
+                            "name": "CAMPO VERDE",
+                            "countries": [
+                                "de",
+                                "at",
+                                "ch"
+                            ],
+                            "ingredientTitle": null,
+                            "uncountableTitle": null,
+                            "ingredientImage": {
+                                "name": "oils_olive_demeter_s.jpeg",
+                                "url": "https://images.kptncook.com/62c84c0d500000bb03eb4e69.jpg"
+                            }
+                        }
+                    ],
+                    "creationDate": {
+                        "$date": 1388056060934
+                    },
+                    "updateDate": {
+                        "$date": 1711028853426
+                    }
+                }
+            },
+            {
+                "quantity": 0.25,
+                "measure": "TL",
+                "metricQuantity": 0.25,
+                "metricMeasure": "TL",
+                "metricQuantityProd": 1.25,
+                "quantityUS": 0.25,
+                "measureUS": "tsp",
+                "imperialQuantity": 0.25,
+                "imperialMeasure": "TL",
+                "quantityUSProd": 0.25,
+                "imperialProductQuantity": 0.25,
+                "canBeRemoved": false,
+                "changeable": true,
+                "ingredient": {
+                    "_id": {
+                        "$oid": "55364246490000711350a3d2"
+                    },
+                    "typ": "basic",
+                    "title": "Chiliflocke",
+                    "numberTitle": {
+                        "singular": "Chiliflocke",
+                        "plural": "Chiliflocken"
+                    },
+                    "uncountableTitle": "Chiliflocken",
+                    "category": "SpicesSeasoning",
+                    "key": "chili_flakechiliflockechili_flakeschiliflocken",
+                    "desc": "chili_flakechiliflockechili_flakeschiliflocken",
+                    "image": {
+                        "name": "spices_chili-flakes_s.jpg",
+                        "url": "https://images.kptncook.com/5bb625b02800007619c51d35.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "5592a95e3000005a03211522"
+                            },
+                            "title": "Chili Flakes",
+                            "ingredient": "55364246490000711350a3d2",
+                            "retailer": "5592887e310000d11c5237e1",
+                            "price": 1.99,
+                            "newQuantity": 1.2,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1435674974829
+                            },
+                            "updateDate": {
+                                "$date": 1435921084957
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5735b2a3800000340970a8a9"
+                            },
+                            "title": "Ostmann Chili Flocken",
+                            "ingredient": "55364246490000711350a3d2",
+                            "retailer": "5707c9a61700009411f175cf",
+                            "price": 2.29,
+                            "quantity": 45,
+                            "newQuantity": 45,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1463136931912
+                            },
+                            "updateDate": {
+                                "$date": 1662983675067
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5bd9c8005b0000e80da6233f"
+                            },
+                            "title": "Ostmann Chili Flocken",
+                            "ingredient": "55364246490000711350a3d2",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 1.99,
+                            "quantity": 45,
+                            "newQuantity": 45,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1540999168886
+                            },
+                            "updateDate": {
+                                "$date": 1540999168886
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5be313db3800007e028945d9"
+                            },
+                            "title": "Fuchs Chillies Flocken",
+                            "ingredient": "55364246490000711350a3d2",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 4.29,
+                            "quantity": 40,
+                            "newQuantity": 40,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1541608411792
+                            },
+                            "updateDate": {
+                                "$date": 1541608411792
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5bfeb6433d0000c20b8e658b"
+                            },
+                            "title": "Fuchs Chiliflocken",
+                            "ingredient": "55364246490000711350a3d2",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 3.69,
+                            "quantity": 40,
+                            "newQuantity": 40,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1543419459325
+                            },
+                            "updateDate": {
+                                "$date": 1543419459325
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5e30093e540000195974c64b"
+                            },
+                            "title": "Ostmann Chiliflocken",
+                            "ingredient": "55364246490000711350a3d2",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 1.99,
+                            "newQuantity": 45,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1580206398477
+                            },
+                            "updateDate": {
+                                "$date": 1580206398477
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5ede6d7f450000590b618f7c"
+                            },
+                            "title": "Sonnentor Chiliflocken",
+                            "ingredient": "55364246490000711350a3d2",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 2.69,
+                            "quantity": 45,
+                            "newQuantity": 45,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1591635327775
+                            },
+                            "updateDate": {
+                                "$date": 1591635327775
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "61dee7fc4f0000f1038f5d36"
+                            },
+                            "title": "Mother in Law's Kimchi Korean Chili Flakes",
+                            "ingredient": "55364246490000711350a3d2",
+                            "retailer": "5303670c51638db208100cf4",
+                            "price": 6.49,
+                            "quantity": 3,
+                            "newQuantity": 3.25,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1641998332404
+                            },
+                            "updateDate": {
+                                "$date": 1641998332404
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "61dee8865000008f038c774a"
+                            },
+                            "title": "It's Delish Crushed Chilis",
+                            "ingredient": "55364246490000711350a3d2",
+                            "retailer": "59d24cf7810000b9136d4d75",
+                            "price": 3.41,
+                            "quantity": 4,
+                            "newQuantity": 4.75,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1641998470036
+                            },
+                            "updateDate": {
+                                "$date": 1641998470036
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "65a67c034d00000de0bf4028"
+                            },
+                            "title": "Morton & Bassett Red Chili Flakes",
+                            "ingredient": "55364246490000711350a3d2",
+                            "retailer": "530366d751638da708100cf3",
+                            "price": 11.99,
+                            "quantity": 1,
+                            "newQuantity": 1.3,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1705409539944
+                            },
+                            "updateDate": {
+                                "$date": 1705409539944
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "synonym": "Chiliflocke",
+                    "brands": [],
+                    "creationDate": {
+                        "$date": 1429619270586
+                    },
+                    "updateDate": {
+                        "$date": 1711536917851
+                    }
+                }
+            },
+            {
+                "quantity": 0.5,
+                "metricQuantity": 0.5,
+                "metricQuantityProd": 0.5,
+                "quantityUS": 0.5,
+                "imperialQuantity": 0.5,
+                "quantityUSProd": 0.5,
+                "imperialProductQuantity": 0.5,
+                "canBeRemoved": false,
+                "changeable": true,
+                "ingredient": {
+                    "_id": {
+                        "$oid": "52bc2f9991217a5903a8adb2"
+                    },
+                    "typ": "regular",
+                    "title": "Schalotte",
+                    "numberTitle": {
+                        "singular": "Schalotte",
+                        "plural": "Schalotten"
+                    },
+                    "uncountableTitle": "Schalotten",
+                    "category": "FruitVegetables",
+                    "key": "shallotschalotteshallotsschalotten",
+                    "desc": "shallotschalotteshallotsschalotten",
+                    "image": {
+                        "name": "veg_shallots_s.jpg",
+                        "url": "https://images.kptncook.com/5bb78482270000e3048a8f8b.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "52c40e6a5456c4f200f8c4bf"
+                            },
+                            "title": "Bio Schalotten, lose ca. 20g",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "52b80d9b0f5e98a800f9d2a9",
+                            "price": 0.78,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1388580458477
+                            },
+                            "updateDate": {
+                                "$date": 1492776517781
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52c83ec7827be85400227520"
+                            },
+                            "title": "Bio Schalotten, Netz (ca. 200g)",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 1.49,
+                            "newQuantity": 8,
+                            "creationDate": {
+                                "$date": 1388854983127
+                            },
+                            "updateDate": {
+                                "$date": 1494195768821
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "538257cdab508abd1cba11cc"
+                            },
+                            "title": "Schalotten, Netz",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "53805d62a8a4f14a1dc15aee",
+                            "price": 1.49,
+                            "newQuantity": 8,
+                            "creationDate": {
+                                "$date": 1401051085597
+                            },
+                            "updateDate": {
+                                "$date": 1462199586477
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "538e52b6dbf6133c3214646b"
+                            },
+                            "title": "Schalotten, Netz",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "538dab8697169d59149ddf66",
+                            "price": 1.99,
+                            "newQuantity": 8,
+                            "creationDate": {
+                                "$date": 1401836214901
+                            },
+                            "updateDate": {
+                                "$date": 1462199593816
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53fa1f424600005601d2f8d6"
+                            },
+                            "title": "Organic Shallots, app. 0.1 lb ",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "5303670c51638db208100cf4",
+                            "price": 0.5,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1408900930911
+                            },
+                            "updateDate": {
+                                "$date": 1462196540980
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53ed4a464900002402a420ed"
+                            },
+                            "title": "Shallot, app. 0.5 lb",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "530366d751638da708100cf3",
+                            "price": 0.5,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1408059974933
+                            },
+                            "updateDate": {
+                                "$date": 1462186517913
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52c547d2e4b76e5401fccf26"
+                            },
+                            "title": "Schalotten, Netz",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "52b80d920f5e98a200f9d2a8",
+                            "price": 0.99,
+                            "newQuantity": 8,
+                            "creationDate": {
+                                "$date": 1388660690629
+                            },
+                            "updateDate": {
+                                "$date": 1462199572762
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "54cce9d9e20800e60a198efc"
+                            },
+                            "title": "Schalotten, Netz",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "54c65feff70700f7078405dc",
+                            "price": 1.09,
+                            "newQuantity": 8,
+                            "cbid": "schalotte",
+                            "creationDate": {
+                                "$date": 1422715353174
+                            },
+                            "updateDate": {
+                                "$date": 1462199601325
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "55968451780000740fb7d12e"
+                            },
+                            "title": "Shallots ",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "5592887e310000d11c5237e1",
+                            "price": 0.99,
+                            "newQuantity": 4,
+                            "creationDate": {
+                                "$date": 1435927633253
+                            },
+                            "updateDate": {
+                                "$date": 1462186523825
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5698dd7117000045081f5440"
+                            },
+                            "title": "Schalotten, lose ca. 20g",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 0.12,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1452858737915
+                            },
+                            "updateDate": {
+                                "$date": 1545302810902
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "56c745e81500003013377573"
+                            },
+                            "title": "Schalotten, Netz",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 1.29,
+                            "newQuantity": 8,
+                            "creationDate": {
+                                "$date": 1455900136851
+                            },
+                            "updateDate": {
+                                "$date": 1496764251699
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5734618217000071016c922c"
+                            },
+                            "title": "Schalotten, Netz",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "5707c9a61700009411f175cf",
+                            "price": 1.49,
+                            "newQuantity": 8,
+                            "creationDate": {
+                                "$date": 1463050626578
+                            },
+                            "updateDate": {
+                                "$date": 1463136766151
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "579882641904003b093d4983"
+                            },
+                            "title": "Edeka Schalotten, Netz",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 1.29,
+                            "quantity": 8,
+                            "newQuantity": 8,
+                            "creationDate": {
+                                "$date": 1469612644683
+                            },
+                            "updateDate": {
+                                "$date": 1662462788425
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5e203dcf5400007fdd9df775"
+                            },
+                            "title": "Schalotten",
+                            "ingredient": "52bc2f9991217a5903a8adb2",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 0.79,
+                            "newQuantity": 6,
+                            "creationDate": {
+                                "$date": 1579171279189
+                            },
+                            "updateDate": {
+                                "$date": 1579171279189
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "synonym": "Schalotte,Schalotten-,Zwiebel",
+                    "brands": [],
+                    "creationDate": {
+                        "$date": 1388064665371
+                    },
+                    "updateDate": {
+                        "$date": 1722864797940
+                    }
+                }
+            },
+            {
+                "quantity": 5,
+                "measure": "g",
+                "metricQuantity": 5,
+                "metricMeasure": "g",
+                "metricQuantityProd": 5,
+                "quantityUS": 0.03,
+                "measureUS": "cup(s)",
+                "imperialQuantity": 0.03,
+                "imperialMeasure": "Tasse(n)",
+                "quantityUSProd": 0.1,
+                "measureUSProd": "oz",
+                "imperialProductQuantity": 0.1,
+                "imperialProductMeasure": "oz",
+                "canBeRemoved": false,
+                "changeable": true,
+                "ingredient": {
+                    "_id": {
+                        "$oid": "52bc33dd91217ae703a8adcc"
+                    },
+                    "typ": "regular",
+                    "title": "Pinienkern",
+                    "numberTitle": {
+                        "singular": "Pinienkern",
+                        "plural": "Pinienkerne"
+                    },
+                    "uncountableTitle": "Pinienkerne",
+                    "category": "NutsSeedsDriedFruit",
+                    "key": "pine_nutpinienkernpine_nutspinienkerne",
+                    "desc": "pine_nutpinienkernpine_nutspinienkerne",
+                    "image": {
+                        "name": "nuts_nuts-pine_s.jpg",
+                        "url": "https://images.kptncook.com/5bb7701c270000d5008a8f2d.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "52c5ae8e37efa38802ff2e86"
+                            },
+                            "title": "Biofram Bio Pinienkerne",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "52b80d920f5e98a200f9d2a8",
+                            "price": 3.99,
+                            "newQuantity": 50,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1388686990030
+                            },
+                            "updateDate": {
+                                "$date": 1441629548954
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53806431d26b9caa00b4e7fd"
+                            },
+                            "title": "Alnatura Pinienkerne",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "53805d62a8a4f14a1dc15aee",
+                            "price": 6.99,
+                            "quantity": 60,
+                            "newQuantity": 60,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1400923185362
+                            },
+                            "updateDate": {
+                                "$date": 1667287854045
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "538de3af97169da81e9ddf88"
+                            },
+                            "title": "Tegut Pinienkerne",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "538dab8697169d59149ddf66",
+                            "price": 3.29,
+                            "newQuantity": 60,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1401807791442
+                            },
+                            "updateDate": {
+                                "$date": 1523891960103
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53ed542d490000b103a4211f"
+                            },
+                            "title": "Diamond Baking Pine Nuts Whole Shelled",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "530366d751638da708100cf3",
+                            "price": 5.99,
+                            "quantity": 2,
+                            "newQuantity": 2.25,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1408062509840
+                            },
+                            "updateDate": {
+                                "$date": 1408062509840
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "54ce8ba07f0700860fe7f205"
+                            },
+                            "title": "Seeberger Pinienkerne",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "54c65feff70700f7078405dc",
+                            "price": 3.29,
+                            "quantity": 50,
+                            "newQuantity": 50,
+                            "measure": "g",
+                            "cbid": "pinienkerne",
+                            "creationDate": {
+                                "$date": 1422822304030
+                            },
+                            "updateDate": {
+                                "$date": 1422822304030
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52e760588dedb4b408b80e36"
+                            },
+                            "title": "Rapunzel Pinienkerne",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "52b80d9b0f5e98a800f9d2a9",
+                            "price": 7.97,
+                            "newQuantity": 75,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1390895192116
+                            },
+                            "updateDate": {
+                                "$date": 1453808216971
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52bc367a91217aed03a8adcd"
+                            },
+                            "title": "Farmer's Snack Pinienkerne",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 3.49,
+                            "newQuantity": 75,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1388066426574
+                            },
+                            "updateDate": {
+                                "$date": 1527205263789
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53ee8f215400002104098061"
+                            },
+                            "title": "Pine nuts",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "5303670c51638db208100cf4",
+                            "price": 4,
+                            "newQuantity": 4,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1408143137235
+                            },
+                            "updateDate": {
+                                "$date": 1431300959216
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5596475f780000ac05b7d0d4"
+                            },
+                            "title": "Trader Joe's Pine Nuts",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "5592887e310000d11c5237e1",
+                            "price": 7.99,
+                            "newQuantity": 8,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1435912031929
+                            },
+                            "updateDate": {
+                                "$date": 1435923593057
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "569782f81500009f075b315a"
+                            },
+                            "title": "Dennree Pinienkerne",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 5.99,
+                            "quantity": 70,
+                            "newQuantity": 70,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1452770040026
+                            },
+                            "updateDate": {
+                                "$date": 1452770040026
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "56c5e09d180000650cabd217"
+                            },
+                            "title": "real,- quality Pinienkerne",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 5.99,
+                            "quantity": 100,
+                            "newQuantity": 100,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1455808669495
+                            },
+                            "updateDate": {
+                                "$date": 1455808669495
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "57348d6b170000d7056c926a"
+                            },
+                            "title": "Seeberger Pinienkerne",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "5707c9a61700009411f175cf",
+                            "price": 4.19,
+                            "quantity": 50,
+                            "newQuantity": 50,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1463061867953
+                            },
+                            "updateDate": {
+                                "$date": 1665386587338
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5797888a330000f914ecc7a5"
+                            },
+                            "title": "Verival Bio Pinienkerne",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 4.49,
+                            "newQuantity": 70,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1469548682595
+                            },
+                            "updateDate": {
+                                "$date": 1527206069408
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5e203dcf5400007fdd9df8a5"
+                            },
+                            "title": "K-Classic Pinienkerne naturbelassen",
+                            "ingredient": "52bc33dd91217ae703a8adcc",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 2.29,
+                            "newQuantity": 50,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1579171279230
+                            },
+                            "updateDate": {
+                                "$date": 1678334436948
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "synonym": "Pinienkernen,geröstete Pinienkerne,gehackte Pinienkerne",
+                    "brands": [],
+                    "creationDate": {
+                        "$date": 1388065757086
+                    },
+                    "updateDate": {
+                        "$date": 1713965395932
+                    }
+                }
+            },
+            {
+                "quantity": 0.5,
+                "metricQuantity": 0.5,
+                "metricQuantityProd": 0.5,
+                "quantityUS": 0.5,
+                "imperialQuantity": 0.5,
+                "quantityUSProd": 0.5,
+                "imperialProductQuantity": 0.5,
+                "canBeRemoved": false,
+                "changeable": true,
+                "ingredient": {
+                    "_id": {
+                        "$oid": "52bc300591217a7503a8adb9"
+                    },
+                    "typ": "regular",
+                    "title": "Zucchini",
+                    "numberTitle": {
+                        "singular": "Zucchini",
+                        "plural": "Zucchini"
+                    },
+                    "uncountableTitle": "Zucchini",
+                    "category": "FruitVegetables",
+                    "key": "zucchinizucchinizucchinizucchini",
+                    "desc": "zucchinizucchinizucchinizucchini",
+                    "image": {
+                        "name": "veg_zucchini_s.jpg",
+                        "url": "https://images.kptncook.com/5bbb213f280000a618a3e23d.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "52c4100e5456c41d01f8c4c2"
+                            },
+                            "title": "Bio Zucchini, lose ca. 200g",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "52b80d9b0f5e98a800f9d2a9",
+                            "price": 0.49,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1388580878033
+                            },
+                            "updateDate": {
+                                "$date": 1492777038588
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53827182ff5374b921f20fc3"
+                            },
+                            "title": "Zucchini, lose ca. 220g",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "53805d62a8a4f14a1dc15aee",
+                            "price": 0.54,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1401057666250
+                            },
+                            "updateDate": {
+                                "$date": 1462200980727
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "538e552097169d24329ddfcd"
+                            },
+                            "title": "Bio Zucchini, lose ca. 220g",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "538dab8697169d59149ddf66",
+                            "price": 0.66,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1401836832761
+                            },
+                            "updateDate": {
+                                "$date": 1461860862647
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53ed4b004900004002a420ef"
+                            },
+                            "title": "Green Zucchini Squash, app. 0.4 lb",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "530366d751638da708100cf3",
+                            "price": 0.56,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1408060160373
+                            },
+                            "updateDate": {
+                                "$date": 1462192181977
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "53fa245e4600004802d2f8e2"
+                            },
+                            "title": "Organic Zucchini, app. 0.4 lb",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "5303670c51638db208100cf4",
+                            "price": 0.8,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1408902238826
+                            },
+                            "updateDate": {
+                                "$date": 1462197026185
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52c54c2de4b76e9401fccf2e"
+                            },
+                            "title": "Zucchini, lose ca. 220g",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "52b80d920f5e98a200f9d2a8",
+                            "price": 0.65,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1388661805637
+                            },
+                            "updateDate": {
+                                "$date": 1462200969517
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "52c47e24bd0c4cbf00e88522"
+                            },
+                            "title": "Bio Zucchini, Packung ca. 500g",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 1.99,
+                            "newQuantity": 3,
+                            "creationDate": {
+                                "$date": 1388609060290
+                            },
+                            "updateDate": {
+                                "$date": 1522163654522
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "54cb6d3b6b07004909d09cfb"
+                            },
+                            "title": "Zucchini, lose ca. 220g",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "54c65feff70700f7078405dc",
+                            "price": 0.99,
+                            "newQuantity": 1,
+                            "cbid": "zucchini",
+                            "creationDate": {
+                                "$date": 1422617915519
+                            },
+                            "updateDate": {
+                                "$date": 1462200990701
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5596620a7800001d0ab7d12a"
+                            },
+                            "title": "Zucchini",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "5592887e310000d11c5237e1",
+                            "price": 2.29,
+                            "newQuantity": 5,
+                            "creationDate": {
+                                "$date": 1435918858912
+                            },
+                            "updateDate": {
+                                "$date": 1462200959236
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "5697bbba150000bf0d5b3184"
+                            },
+                            "title": "Zucchini, lose ca. 220g",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 1.39,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1452784570178
+                            },
+                            "updateDate": {
+                                "$date": 1545303358009
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "56c74c671500005814377584"
+                            },
+                            "title": "Zucchini",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 0.99,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1455901799545
+                            },
+                            "updateDate": {
+                                "$date": 1496917551081
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "573064d5150000ac01e60150"
+                            },
+                            "title": "Zucchini, lose ca. 220g",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "5707c9a61700009411f175cf",
+                            "price": 1.5,
+                            "quantity": 1,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1462789333549
+                            },
+                            "updateDate": {
+                                "$date": 1665382184742
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "579883ab19040079093d4989"
+                            },
+                            "title": "Zucchini, lose ca. 200g",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 0.4,
+                            "newQuantity": 1,
+                            "creationDate": {
+                                "$date": 1469612971974
+                            },
+                            "updateDate": {
+                                "$date": 1522768459424
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "60f6db34400000fe0f92a7f4"
+                            },
+                            "title": "Demeter Zucchini 500g",
+                            "ingredient": "52bc300591217a7503a8adb9",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 1.99,
+                            "quantity": 2,
+                            "newQuantity": 2,
+                            "creationDate": {
+                                "$date": 1626790708434
+                            },
+                            "updateDate": {
+                                "$date": 1626790708434
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "synonym": "Zucchini",
+                    "brands": [],
+                    "creationDate": {
+                        "$date": 1388064773453
+                    },
+                    "updateDate": {
+                        "$date": 1721654650609
+                    }
+                }
+            },
+            {
+                "quantity": 10,
+                "measure": "g",
+                "metricQuantity": 10,
+                "metricMeasure": "g",
+                "metricQuantityProd": 10,
+                "quantityUS": 0.08,
+                "measureUS": "cup(s)",
+                "imperialQuantity": 0.08,
+                "imperialMeasure": "Tasse(n)",
+                "quantityUSProd": 0.3,
+                "measureUSProd": "oz",
+                "imperialProductQuantity": 0.3,
+                "imperialProductMeasure": "oz",
+                "canBeRemoved": false,
+                "changeable": true,
+                "ingredient": {
+                    "_id": {
+                        "$oid": "623b22774b00001308244d9e"
+                    },
+                    "typ": "regular",
+                    "title": "Feta Käse",
+                    "numberTitle": {
+                        "singular": "Feta Käse",
+                        "plural": "Feta Käse"
+                    },
+                    "uncountableTitle": "Feta Käse",
+                    "category": "DairyEggs",
+                    "key": "feta_cheesefeta_käsefeta_cheesefeta_käse",
+                    "desc": "feta_cheesefeta_käsefeta_cheesefeta_käse",
+                    "image": {
+                        "name": "dairy_cheese-feta_s.jpg",
+                        "url": "https://images.kptncook.com/623b22e0500000cf069dc5fb.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d73"
+                            },
+                            "title": "Salakis Schafkäse Natur",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 2.69,
+                            "quantity": 200,
+                            "newQuantity": 200,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1650442252997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d74"
+                            },
+                            "title": "Bio Company Feta, natur",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "52b80d9b0f5e98a800f9d2a9",
+                            "price": 2.49,
+                            "newQuantity": 150,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1650442252997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d75"
+                            },
+                            "title": "Salakis Schafkäse Natur",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "52b80d920f5e98a200f9d2a8",
+                            "price": 2.69,
+                            "quantity": 200,
+                            "newQuantity": 200,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1650442252997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d76"
+                            },
+                            "title": "Alnatura Bio Feta 45% i.Tr.",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "53805d62a8a4f14a1dc15aee",
+                            "price": 2.89,
+                            "quantity": 180,
+                            "newQuantity": 180,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1666683483603
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d77"
+                            },
+                            "title": "Alnatura Bio Feta 45% i.Tr.",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "538dab8697169d59149ddf66",
+                            "price": 2.79,
+                            "newQuantity": 180,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1650442252997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d78"
+                            },
+                            "title": "Valbreso Plain Sheep Feta",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "530366d751638da708100cf3",
+                            "price": 6.49,
+                            "quantity": 7,
+                            "newQuantity": 7,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1650442252997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d79"
+                            },
+                            "title": "Organic Valley Organic Block Feta",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "5303670c51638db208100cf4",
+                            "price": 6.99,
+                            "quantity": 8,
+                            "newQuantity": 8,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1650442252997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d7a"
+                            },
+                            "title": "Fresca d'Oro Feta",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "54c65feff70700f7078405dc",
+                            "price": 2.19,
+                            "quantity": 200,
+                            "newQuantity": 200,
+                            "measure": "g",
+                            "cbid": "feta",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1650442252997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d7b"
+                            },
+                            "title": "Trader Joe's Feta Cheese",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "5592887e310000d11c5237e1",
+                            "price": 2.99,
+                            "newQuantity": 8,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1650442252997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d7c"
+                            },
+                            "title": "Thamos Feta 50% i.Tr.",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 2.79,
+                            "newQuantity": 180,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1650442252997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d7d"
+                            },
+                            "title": "Salakis Schafkäse Natur",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 2.69,
+                            "quantity": 200,
+                            "newQuantity": 200,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1650442252997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d7e"
+                            },
+                            "title": "Fresca D'Oro Original Griechischer Feta Schafskäse 48% i.Tr.",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "5707c9a61700009411f175cf",
+                            "price": 2.09,
+                            "quantity": 200,
+                            "newQuantity": 200,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1650442252997
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d7f"
+                            },
+                            "title": "Salakis Schafkäse Natur",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 3.09,
+                            "quantity": 200,
+                            "newQuantity": 200,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1662463415893
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00c910000b7002c8d80"
+                            },
+                            "title": "K-Bio K-Bio Griechischer Feta",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 2.69,
+                            "quantity": 200,
+                            "newQuantity": 200,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442252997
+                            },
+                            "updateDate": {
+                                "$date": 1661766786823
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "63629ac05200004a0055a0cc"
+                            },
+                            "title": "Gut Bio Bio-Feta",
+                            "ingredient": "623b22774b00001308244d9e",
+                            "retailer": "636114534900007700ae9eb9",
+                            "price": 2.65,
+                            "quantity": 200,
+                            "newQuantity": 200,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1667406528248
+                            },
+                            "updateDate": {
+                                "$date": 1669128252198
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "synonym": "Feta,Feta Käse,Käse,Schafkäse",
+                    "brands": [
+                        {
+                            "id": "623b229d520000b00c76d42a",
+                            "name": "K-BIO",
+                            "countries": [
+                                "de",
+                                "at",
+                                "ch"
+                            ],
+                            "ingredientTitle": {
+                                "singular": "Feta",
+                                "plural": "Feta"
+                            },
+                            "uncountableTitle": "Feta",
+                            "ingredientImage": {
+                                "name": "dairy_cheese-feta_K-Bio_s.jpg",
+                                "url": "https://images.kptncook.com/623b22ed50000085069dc5fc.jpg"
+                            }
+                        },
+                        {
+                            "id": "6241b962510000d5009d2f54",
+                            "name": "Salakis",
+                            "countries": [
+                                "de",
+                                "at",
+                                "ch"
+                            ],
+                            "ingredientTitle": {
+                                "singular": "Schafkäse",
+                                "plural": "Schafkäse"
+                            },
+                            "uncountableTitle": "Schafkäse",
+                            "ingredientImage": {
+                                "name": "dairy_cheese_feta_Salakis_s.jpg",
+                                "url": "https://images.kptncook.com/64900bf2470000e605e8baf8.jpg"
+                            }
+                        },
+                        {
+                            "id": "626f8bbd56000037008b9ad1",
+                            "name": "Gazi",
+                            "countries": [
+                                "de",
+                                "at",
+                                "ch"
+                            ],
+                            "ingredientTitle": {
+                                "singular": "Feta, bio",
+                                "plural": "Feta, bio"
+                            },
+                            "uncountableTitle": "Feta, bio",
+                            "ingredientImage": {
+                                "name": "dairy_cheese-feta-bio_Gazi_s.jpg",
+                                "url": "https://images.kptncook.com/627a4b964b00003301cfcdd5.jpg"
+                            }
+                        }
+                    ],
+                    "creationDate": {
+                        "$date": 1648042615926
+                    },
+                    "updateDate": {
+                        "$date": 1711456394529
+                    }
+                }
+            },
+            {
+                "quantity": 75,
+                "measure": "g",
+                "metricQuantity": 75,
+                "metricMeasure": "g",
+                "metricQuantityProd": 75,
+                "quantityUS": 0.375,
+                "measureUS": "cup(s)",
+                "imperialQuantity": 0.375,
+                "imperialMeasure": "Tasse(n)",
+                "quantityUSProd": 2.6,
+                "measureUSProd": "oz",
+                "imperialProductQuantity": 2.6,
+                "imperialProductMeasure": "oz",
+                "canBeRemoved": false,
+                "changeable": true,
+                "ingredient": {
+                    "_id": {
+                        "$oid": "623ae43c520000a90c76d1ff"
+                    },
+                    "typ": "regular",
+                    "title": "Cherrytomate",
+                    "numberTitle": {
+                        "singular": "Cherrytomate",
+                        "plural": "Cherrytomaten"
+                    },
+                    "uncountableTitle": "Cherrytomaten",
+                    "category": "FruitVegetables",
+                    "key": "cherry_tomatocherrytomatecherry_tomatoescherrytomaten",
+                    "desc": "cherry_tomatocherrytomatecherry_tomatoescherrytomaten",
+                    "image": {
+                        "name": "vegetables_cherry_tomato_s.jpg",
+                        "url": "https://images.kptncook.com/63d7d0d94800003800ddd056.jpg"
+                    },
+                    "products": [
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d36"
+                            },
+                            "title": "Bio Cherrytomaten, lose",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "52b80d9b0f5e98a800f9d2a9",
+                            "price": 0.49,
+                            "newQuantity": 100,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d37"
+                            },
+                            "title": "Cherrytomaten, lose",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "53805d62a8a4f14a1dc15aee",
+                            "price": 0.4,
+                            "newQuantity": 100,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d38"
+                            },
+                            "title": "Bio Cherrytomaten, Schale",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "538dab8697169d59149ddf66",
+                            "price": 1.99,
+                            "newQuantity": 300,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d39"
+                            },
+                            "title": "Organic Red Grape Cherry Tomatoes",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "5303670c51638db208100cf4",
+                            "price": 3.99,
+                            "newQuantity": 12,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d3a"
+                            },
+                            "title": "Glorys Cherry Tomatoes",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "530366d751638da708100cf3",
+                            "price": 2.99,
+                            "newQuantity": 5,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d3b"
+                            },
+                            "title": "Naturkind Bio Cherrytomaten, Schale",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "52b80d920f5e98a200f9d2a8",
+                            "price": 1.99,
+                            "newQuantity": 250,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d3c"
+                            },
+                            "title": "Bio Cherrytomaten, Schale",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "52b80d660f5e989d00f9d2a7",
+                            "price": 1.49,
+                            "newQuantity": 250,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d3d"
+                            },
+                            "title": "Bio Cherrytomaten, Schale",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "54c65feff70700f7078405dc",
+                            "price": 1.69,
+                            "newQuantity": 250,
+                            "measure": "g",
+                            "cbid": "kirschtomaten",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d3e"
+                            },
+                            "title": "Cherry Tomatoes",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "5592887e310000d11c5237e1",
+                            "price": 2.49,
+                            "newQuantity": 16,
+                            "measure": "oz",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d3f"
+                            },
+                            "title": "Cherrytomaten, rot",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "56953519190000bf0d27346e",
+                            "price": 0.89,
+                            "newQuantity": 100,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d40"
+                            },
+                            "title": "Cherrytomaten, Schale",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "569825da15000055175b31a1",
+                            "price": 0.99,
+                            "newQuantity": 250,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d41"
+                            },
+                            "title": "Cherrytomaten San Louis",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "5707c9a61700009411f175cf",
+                            "price": 1.69,
+                            "quantity": 250,
+                            "newQuantity": 250,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1662983451056
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d42"
+                            },
+                            "title": "EDEKA Bio Cherrytomaten, Schale",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "532f5ddcf8b4222e28731609",
+                            "price": 1.79,
+                            "newQuantity": 250,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1650442251190
+                            }
+                        },
+                        {
+                            "_id": {
+                                "$oid": "625fc00b910000b7002c8d43"
+                            },
+                            "title": "K-Bio Cherryrispentomaten, Schale",
+                            "ingredient": "623ae43c520000a90c76d1ff",
+                            "retailer": "59dcb17a9e0000b006e253da",
+                            "price": 1.99,
+                            "quantity": 250,
+                            "newQuantity": 250,
+                            "measure": "g",
+                            "creationDate": {
+                                "$date": 1650442251190
+                            },
+                            "updateDate": {
+                                "$date": 1661764410499
+                            }
+                        }
+                    ],
+                    "isSponsored": false,
+                    "measures": {
+                        "de": [],
+                        "us": []
+                    },
+                    "synonym": "Tomate",
+                    "brands": [
+                        {
+                            "id": "623ae4644a000019093c2e7a",
+                            "name": "REWE Regional ",
+                            "countries": [
+                                "de",
+                                "at",
+                                "ch"
+                            ],
+                            "ingredientTitle": null,
+                            "uncountableTitle": null,
+                            "ingredientImage": {
+                                "name": "veg_tomatoes-cherry_REWE-Regional_s.jpg",
+                                "url": "https://images.kptncook.com/623ae5e5500000cb069dc35d.jpg"
+                            }
+                        }
+                    ],
+                    "creationDate": {
+                        "$date": 1648026684311
+                    },
+                    "updateDate": {
+                        "$date": 1716814058519
+                    }
+                }
+            }
+        ],
+        "imageList": [
+            {
+                "name": "REZ_2738_Fav.jpg",
+                "url": "https://images.kptncook.com/620a1d3a500000b5020ec93c.jpg",
+                "type": "favorite"
+            },
+            {
+                "name": "REZ_2738_Cover.jpg",
+                "url": "https://images.kptncook.com/620a1d3a500000b5020ec93b.jpg",
+                "type": "cover"
+            },
+            {
+                "name": "REZ_2738_12.jpg",
+                "url": "https://images.kptncook.com/620a1d3a500000b5020ec93a.jpg",
+                "type": "blurred"
+            }
+        ],
+        "trackingMode": "no",
+        "feature": "none",
+        "favoriteCount": 176748,
+        "creationDate": {
+            "$date": 1643790598983
+        },
+        "updateDate": {
+            "$date": 1724101650945
+        }
+    }
+]
