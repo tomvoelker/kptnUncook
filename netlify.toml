@@ -1,5 +1,7 @@
 [build]
+  command = "npm run build"
   functions = "functions"
+  publish = "public"
 
 [[redirects]]
   from = "/recipe/*"
@@ -8,6 +10,7 @@
   force = true
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/index.html"
   status = 200
+  force = true

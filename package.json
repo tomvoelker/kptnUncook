@@ -1,8 +1,9 @@
 {
   "name": "kptnuncook",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "main.js",
   "scripts": {
+    "build": "mkdir -p functions && cp shared/* functions/ && mkdir -p public && cp shared/* public/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

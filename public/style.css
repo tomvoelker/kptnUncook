@@ -1,0 +1,225 @@
+body {
+    padding-top: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #df5341;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#langToggle {
+    margin-left: auto;
+}
+
+.hero {
+    background-color: #df5341;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+}
+
+.hero .input-group {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero .form-control {
+    border: none;
+    border-radius: 25px 0 0 25px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+}
+
+.hero .btn-primary {
+    border-radius: 0 25px 25px 0;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #df5341;
+    border: none;
+}
+
+.hero .btn-primary:hover {
+    background-color: #f8f9fa;
+    color: #c74836;
+}
+
+
+.input-group {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    background-color: #df5341;
+    border-color: #df5341;
+}
+
+.btn-primary:hover {
+    background-color: #c74836;
+    border-color: #c74836;
+}
+
+.recipe-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.recipe-image {
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.recipe-title {
+    color: #df5341;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.recipe-meta {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.recipe-meta i {
+    color: #df5341;
+    margin-right: 0.25rem;
+}
+
+.nutrition-info {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.nutrition-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.nutrition-item i {
+    color: #df5341;
+    margin-right: 0.25rem;
+    width: 20px;
+}
+
+.ingredients-list,
+.instructions-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.instructions-list {
+    counter-reset: step-counter;
+}
+
+.instructions-list li {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 2rem;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    position: relative;
+    font-size: 0.9rem;
+}
+
+.instructions-list li::before {
+    content: counter(step-counter);
+    counter-increment: step-counter;
+    position: absolute;
+    left: 0.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #df5341;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.spinner-border {
+    width: 2rem;
+    height: 2rem;
+}
+
+@media (max-width: 576px) {
+    body {
+        padding-top: 0;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .navbar .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .recipe-meta .row>div {
+        margin-bottom: 0.5rem;
+    }
+
+    #langToggle {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero .input-group {
+        max-width: 100%;
+    }
+}

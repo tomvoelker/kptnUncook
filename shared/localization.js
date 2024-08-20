@@ -1,5 +1,3 @@
-// localization.js
-
 const translations = {
     de: {
         appTitle: "KptnUncook's Komische Kombüse",
@@ -22,9 +20,11 @@ const translations = {
         copyLink: "Direktlink kopieren",
         copyMarkdown: "Als Markdown kopieren",
         linkCopied: "Link kopiert!",
+        markdownCopied: "Markdown kopiert!",
         switchLang: "Switch to English 🇺🇸",
         minutes: "Min.",
-        notSpecified: "Nicht angegeben"
+        notSpecified: "Nicht angegeben",
+        error: "Fehler beim Abrufen des Rezepts"
     },
     en: {
         appTitle: "KptnUncook's Crazy Galley",
@@ -47,58 +47,17 @@ const translations = {
         copyLink: "Copy Direct Link",
         copyMarkdown: "Copy as Markdown",
         linkCopied: "Link copied!",
+        markdownCopied: "Markdown copied!",
         switchLang: "Zu Deutsch wechseln 🇩🇪",
         minutes: "min",
-        notSpecified: "Not specified"
+        notSpecified: "Not specified",
+        error: "Error fetching recipe"
     }
 };
 
-let currentLang = getCookie('lang') || 'de';
 
-function t(key) {
-    return translations[currentLang][key] || key;
+export function t(lang, key) {
+    return translations[lang][key] || key;
 }
 
-function updateUILanguage() {
-    document.title = t('appTitle');
-    document.getElementById('appTitle').textContent = t('appTitle');
-    document.getElementById('heroTitle').textContent = t('heroTitle');
-    document.getElementById('heroSubtitle').textContent = t('heroSubtitle');
-    document.getElementById('shortLink').placeholder = t('inputPlaceholder');
-    document.getElementById('getRecipeBtn').innerHTML = `<i class="fas fa-search"></i> ${t('getRecipe')}`;
-    document.getElementById('langToggle').textContent = t('switchLang');
-
-    if (window.currentRecipe) {
-        displayRecipe(window.currentRecipe);
-    }
-}
-
-function toggleLanguage() {
-    currentLang = currentLang === 'de' ? 'en' : 'de';
-    setCookie('lang', currentLang, 30);
-    updateUILanguage();
-}
-
-function setCookie(name, value, days) {
-    let expires = "";
-    if (days) {
-        let date = new Date();
-        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-        expires = "; expires=" + date.toUTCString();
-    }
-    document.cookie = name + "=" + (value || "") + expires + "; path=/";
-}
-
-function getCookie(name) {
-    let nameEQ = name + "=";
-    let ca = document.cookie.split(';');
-    for (let i = 0; i < ca.length; i++) {
-        let c = ca[i];
-        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-    }
-    return null;
-}
-
-// Initialize the UI language when the page loads
-document.addEventListener('DOMContentLoaded', updateUILanguage);
+export { translations };

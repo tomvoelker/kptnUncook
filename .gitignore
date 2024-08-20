@@ -1,2 +1,8 @@
 # Local Netlify folder
 .netlify
+
+public/localization.js
+public/templates.js
+
+functions/localization.js
+functions/templates.js
