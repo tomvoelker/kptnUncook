@@ -2,7 +2,7 @@
 
 const translations = {
     de: {
-        appTitle: "KapitänKochs Komische Kombüse",
+        appTitle: "KptnUncook's Komische Kombüse",
         heroTitle: "Willkommen in der Kombüse",
         heroSubtitle: "Teile köstliche Rezepte mit Freunden ganz einfach und schnell",
         inputPlaceholder: "Rezept-Kurzlink eingeben",
@@ -27,7 +27,7 @@ const translations = {
         notSpecified: "Nicht angegeben"
     },
     en: {
-        appTitle: "KptnCook's Crazy Galley",
+        appTitle: "KptnUncook's Crazy Galley",
         heroTitle: "Welcome to the Galley",
         heroSubtitle: "Share delicious recipes with friends easily and quickly",
         inputPlaceholder: "Enter recipe short link",
