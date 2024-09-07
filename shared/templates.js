@@ -17,13 +17,7 @@ export function renderErrorHTML(error, lang) {
     return `<div class="error">${t(lang, 'error')}: ${error.message}</div>`;
 }
 
-
-
-
-import { t } from './localization.js';
-
-
-export function renderRecipeHTML(recipe, lang) {
+function renderRecipeHTML_legacy(recipe, lang) {
     return `
 <!DOCTYPE html>
 <html lang="${lang}">
@@ -311,12 +305,4 @@ export function renderRecipeHTML(recipe, lang) {
 </body>
 </html>
   `;
-}
-
-export function renderLoadingHTML(lang) {
-    return `<div class="loading">${t(lang, 'loading')}</div>`;
-}
-
-export function renderErrorHTML(error, lang) {
-    return `<div class="error">${t(lang, 'error')}: ${error.message}</div>`;
 }
