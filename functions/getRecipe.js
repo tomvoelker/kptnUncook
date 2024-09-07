@@ -7,7 +7,7 @@ async function getRecipeIdFromShortLink(shortLink) {
 }
 
 function generateStructuredData(recipe, lang) {
-    const structuredData = {
+    return {
         "@context": "https://schema.org/",
         "@type": "Recipe",
         "name": recipe.title,
@@ -44,8 +44,6 @@ function generateStructuredData(recipe, lang) {
             "image": step.image?.url
         }))
     };
-
-    return JSON.stringify(structuredData);
 }
 
 exports.handler = async function (event, context) {

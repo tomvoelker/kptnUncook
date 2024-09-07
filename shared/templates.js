@@ -6,19 +6,17 @@ import { t } from './localization.js';
 const recipeTemplate = fs.readFileSync(path.resolve(__dirname, 'recipe.ejs'), 'utf-8');
 
 export function renderRecipeHTML(recipe, lang, structuredData) {
-    // Escape the JSON string to ensure it's valid when inserted into HTML
-    const escapedStructuredData = JSON.stringify(structuredData)
-    // .replace(/&/g, '&amp;')
-    // .replace(/</g, '&lt;')
-    // .replace(/>/g, '&gt;')
-    // .replace(/"/g, '&quot;')
-    // .replace(/'/g, '&#39;');
+    // Convert the structuredData object to a JSON string
+    const jsonString = JSON.stringify(structuredData);
+
+    // Create a function that returns this JSON string
+    const getStructuredData = `function getStructuredData() { return ${jsonString}; }`;
 
     return ejs.render(recipeTemplate, {
         recipe,
         lang,
         t,
-        structuredData: escapedStructuredData
+        getStructuredData
     });
 }
 
