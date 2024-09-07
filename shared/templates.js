@@ -8,11 +8,11 @@ const recipeTemplate = fs.readFileSync(path.resolve(__dirname, 'recipe.ejs'), 'u
 export function renderRecipeHTML(recipe, lang, structuredData) {
     // Escape the JSON string to ensure it's valid when inserted into HTML
     const escapedStructuredData = JSON.stringify(structuredData)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#39;');
+    // .replace(/&/g, '&amp;')
+    // .replace(/</g, '&lt;')
+    // .replace(/>/g, '&gt;')
+    // .replace(/"/g, '&quot;')
+    // .replace(/'/g, '&#39;');
 
     return ejs.render(recipeTemplate, {
         recipe,
