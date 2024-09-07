@@ -83,6 +83,7 @@ exports.handler = async function (event, context) {
         }
 
         const renderedHTML = renderRecipeHTML(recipeData[0], lang);
+        // const renderedHTML = await ejs.renderFile('../shared/recipe.ejs', { recipe: recipeData[0], lang });
 
         return {
             statusCode: 200,
