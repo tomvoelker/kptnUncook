@@ -8,10 +8,16 @@ This project is a simple web application that allows sharing and viewing recipes
 
 ## Features
 
+> [!TIP]
+> You can now use the site to directly import recipes from KptnCook into [Crouton](https://crouton.app/)!
+> Using [this](https://www.icloud.com/shortcuts/4e3fff62cf20494aa2d17280dbc64af3) shortcut you can just hit "Share" on any KptnCook recipe and select "Cook2Crouton" to add it with all the avaiable information. 
+> Big thanks to [Devin](https://mastodon.social/@JustMeDevin) for providing the necessary info to make this happen!
+
 - Fetch recipes using KptnCook short links
 - Display recipe details including ingredients, instructions, and nutritional information
 - Multilingual support (English and German)
 - Copy recipe links and markdown format
+- Import recipes into Crouton
 
 >[!WARNING]
 >This project is not affiliated with KptnCook.com and is a quick, hacked together project done in a few hours. 
@@ -28,7 +34,7 @@ Remember to set `KPTNCOOK_API_KEY` as an environment variable in Netlify and set
 - `index.html`: Main HTML file
 - `script.js`: Client-side JavaScript for handling user interactions
 - `localization.js`: Translations and language switching functionality
-- `functions/getRecipe.js`: Serverless function for fetching recipe data from KptnCook API
+- `functions/getRecipe.js`: Netlify function for fetching recipe data from KptnCook API, providing a pre-rendered HTML response.
 
 ## API Integration
 

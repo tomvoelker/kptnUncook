@@ -307,9 +307,10 @@
         function copyDirectLink() {
             const directLink = window.location.href;
             navigator.clipboard.writeText(directLink).then(() => {
-                showCopyMessage('<%= t(lang, 'linkCopied') %>');
+                showCopyMessage('<%= t(lang, "linkCopied") %>');
             });
         }
+
         function copyAsMarkdown() {
             const recipe = <% - JSON.stringify(recipe) %>;
             let markdown = `# ${recipe.title}\n\n`;
@@ -317,37 +318,37 @@
             if (recipe.imageList && recipe.imageList.length > 0) {
                 markdown += `![${recipe.title}](${recipe.imageList[0].url})\n\n`;
             }
+
+            const portions = recipe.yield || recipe.servings || recipe.portions || recipe.fixedPortionCount || '<%= t(lang, "notSpecified") %>';
+            markdown += `**<%= t(lang, "portions") %>:** ${portions}\n`;
+            markdown += `**<%= t(lang, "prepTime") %>:** ${recipe.preparationTime} <%= t(lang, "minutes") %>\n`;
+            markdown += `**<%= t(lang, "cookTime") %>:** ${recipe.cookingTime} <%= t(lang, "minutes") %>\n\n`;
+
+            if (recipe.recipeNutrition) {
+                markdown += `## <%= t(lang, "nutritionInfo") %>\n`;
+                markdown += `- <%= t(lang, "calories") %>: ${recipe.recipeNutrition.calories} kcal\n`;
+                markdown += `- <%= t(lang, "protein") %>: ${recipe.recipeNutrition.protein} g\n`;
+                markdown += `- <%= t(lang, "fat") %>: ${recipe.recipeNutrition.fat} g\n`;
+                markdown += `- <%= t(lang, "carbs") %>: ${recipe.recipeNutrition.carbohydrate} g\n\n`;
+            }
+
+            markdown += `## <%= t(lang, "ingredients") %>\n`;
+            recipe.ingredients.forEach(ingredient => {
+                const quantity = ingredient.quantity || '';
+                const measure = ingredient.measure || '';
+                const title = ingredient.ingredient.title;
+                markdown += `- ${quantity} ${measure} ${title}\n`;
+            });
+
+            markdown += `\n## <%= t(lang, "instructions") %>\n`;
+            recipe.steps.forEach((step, index) => {
+                markdown += `${index + 1}. ${step.title}\n`;
+            });
+
+            navigator.clipboard.writeText(markdown).then(() => {
+                showCopyMessage('<%= t(lang, "markdownCopied") %>');
+            });
         }
-
-        const portions = recipe.yield || recipe.servings || recipe.portions || recipe.fixedPortionCount || '<%= t(lang, 'notSpecified') %>';
-        markdown += `**<%= t(lang, 'portions') %>:** ${portions}\n`;
-        markdown += `**<%= t(lang, 'prepTime') %>:** ${recipe.preparationTime} <%= t(lang, 'minutes') %>\n`;
-        markdown += `**<%= t(lang, 'cookTime') %>:** ${recipe.cookingTime} <%= t(lang, 'minutes') %>\n\n`;
-
-        if (recipe.recipeNutrition) {
-            markdown += `## <%= t(lang, 'nutritionInfo') %>\n`;
-            markdown += `- <%= t(lang, 'calories') %>: ${recipe.recipeNutrition.calories} kcal\n`;
-            markdown += `- <%= t(lang, 'protein') %>: ${recipe.recipeNutrition.protein} g\n`;
-            markdown += `- <%= t(lang, 'fat') %>: ${recipe.recipeNutrition.fat} g\n`;
-            markdown += `- <%= t(lang, 'carbs') %>: ${recipe.recipeNutrition.carbohydrate} g\n\n`;
-        }
-
-        markdown += `## <%= t(lang, 'ingredients') %>\n`;
-        recipe.ingredients.forEach(ingredient => {
-            const quantity = ingredient.quantity || '';
-            const measure = ingredient.measure || '';
-            const title = ingredient.ingredient.title;
-            markdown += `- ${quantity} ${measure} ${title}\n`;
-        });
-
-        markdown += `\n## <%= t(lang, 'instructions') %>\n`;
-        recipe.steps.forEach((step, index) => {
-            markdown += `${index + 1}. ${step.title}\n`;
-        });
-
-        navigator.clipboard.writeText(markdown).then(() => {
-            showCopyMessage('<%= t(lang, 'markdownCopied') %>');
-        });
 
         function showCopyMessage(message) {
             const copyMessage = document.getElementById('copyMessage');
