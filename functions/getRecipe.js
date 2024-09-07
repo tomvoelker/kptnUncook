@@ -6,6 +6,46 @@ async function getRecipeIdFromShortLink(shortLink) {
     return response.url.split('/').pop();
 }
 
+function generateStructuredData(recipe, lang) {
+    return {
+        "@context": "https://schema.org/",
+        "@type": "Recipe",
+        "name": recipe.title,
+        "image": recipe.imageList.filter(img => img.type === "cover" || img.type === "favorite").map(img => img.url),
+        "author": {
+            "@type": "Person",
+            "name": recipe.authors[0]?.name + " (KptnCook)" || "KptnCook"
+        },
+        "datePublished": new Date(recipe.creationDate.$date).toISOString().split('T')[0],
+        "description": recipe.authorComment || "",
+        "prepTime": `PT${recipe.preparationTime}M`,
+        "cookTime": `PT${recipe.cookingTime}M`,
+        "totalTime": `PT${recipe.preparationTime + recipe.cookingTime}M`,
+        "keywords": recipe.activeTags.join(", "),
+        "recipeYield": recipe.portions || recipe.yield || recipe.servings || recipe.fixedPortionCount || 2,
+        "recipeCategory": recipe.activeTags.find(tag => tag.startsWith("main_ingredient_")) || "",
+        "recipeCuisine": recipe.activeTags.find(tag => tag.startsWith("cuisine_")) || "",
+        "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": `${recipe.recipeNutrition.calories} calories`,
+            "proteinContent": `${recipe.recipeNutrition.protein}g`,
+            "fatContent": `${recipe.recipeNutrition.fat}g`,
+            "carbohydrateContent": `${recipe.recipeNutrition.carbohydrate}g`
+        },
+        "recipeIngredient": recipe.ingredients.map(ing => {
+            const quantity = ing.quantity ? `${ing.quantity} ` : '';
+            const measure = ing.measure ? `${ing.measure} ` : '';
+            return `${quantity}${measure}${ing.ingredient.title}`.trim();
+        }),
+        "recipeInstructions": recipe.steps.map((step, index) => ({
+            "@type": "HowToStep",
+            "name": `Step ${index + 1}`,
+            "text": step.title,
+            "image": step.image?.url
+        }))
+    };
+}
+
 exports.handler = async function (event, context) {
     console.log('Function invoked');
     let lang = 'de'; // Default language
@@ -82,7 +122,8 @@ exports.handler = async function (event, context) {
             recipeData[0].steps.shift();
         }
 
-        const renderedHTML = renderRecipeHTML(recipeData[0], lang);
+        const structuredData = generateStructuredData(recipeData[0], lang);
+        const renderedHTML = renderRecipeHTML(recipeData[0], lang, structuredData);
 
         return {
             statusCode: 200,
