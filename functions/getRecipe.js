@@ -22,8 +22,8 @@ function generateStructuredData(recipe, lang) {
         "cookTime": `PT${recipe.cookingTime}M`,
         "totalTime": `PT${recipe.preparationTime + recipe.cookingTime}M`,
         "keywords": recipe.activeTags.join(", "),
-        "recipeYield": recipe.portions || recipe.yield || recipe.servings || recipe.fixedPortionCount || "",
-        "recipeCategory": recipe.activeTags.find(tag => tag.startsWith("main_")) || "",
+        "recipeYield": recipe.portions || recipe.yield || recipe.servings || recipe.fixedPortionCount || 2,
+        "recipeCategory": recipe.activeTags.find(tag => tag.startsWith("main_ingredient_")) || "",
         "recipeCuisine": recipe.activeTags.find(tag => tag.startsWith("cuisine_")) || "",
         "nutrition": {
             "@type": "NutritionInformation",
@@ -35,7 +35,7 @@ function generateStructuredData(recipe, lang) {
         "recipeIngredient": recipe.ingredients.map(ing => {
             const quantity = ing.quantity ? `${ing.quantity} ` : '';
             const measure = ing.measure ? `${ing.measure} ` : '';
-            return `${quantity}${measure}${ing.ingredient.title}`;
+            return `${quantity}${measure}${ing.ingredient.title}`.trim();
         }),
         "recipeInstructions": recipe.steps.map((step, index) => ({
             "@type": "HowToStep",
