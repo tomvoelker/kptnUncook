@@ -7,16 +7,13 @@ const recipeTemplate = fs.readFileSync(path.resolve(__dirname, 'recipe.ejs'), 'u
 
 export function renderRecipeHTML(recipe, lang, structuredData) {
     // Convert the structuredData object to a JSON string
-    const jsonString = JSON.stringify(structuredData);
-
-    // Create a function that returns this JSON string
-    const getStructuredData = `function getStructuredData() { return ${jsonString}; }`;
+    const jsonString = JSON.stringify(structuredData, null, 2);
 
     return ejs.render(recipeTemplate, {
         recipe,
         lang,
         t,
-        getStructuredData
+        structuredData: jsonString
     });
 }
 
