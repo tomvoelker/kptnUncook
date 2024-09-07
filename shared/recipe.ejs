@@ -298,6 +298,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+        const recipe = <%- JSON.stringify(recipe) %>;
+    </script>
+    <script>
         function toggleLanguage() {
             const currentLang = document.documentElement.lang;
             const newLang = currentLang === 'de' ? 'en' : 'de';
@@ -312,7 +315,6 @@
         }
 
         function copyAsMarkdown() {
-            const recipe = <%= JSON.stringify(recipe) %>;
             let markdown = `# ${recipe.title}\n\n`;
 
             if (recipe.imageList && recipe.imageList.length > 0) {
