@@ -9,8 +9,8 @@ This project is a simple web application that allows sharing and viewing recipes
 ## Features
 
 > [!TIP]
-> You can now use the site to directly import recipes from KptnCook into [Crouton](https://crouton.app/)!
-> Using [this](https://www.icloud.com/shortcuts/4e3fff62cf20494aa2d17280dbc64af3) shortcut you can just hit "Share" on any KptnCook recipe and select "Cook2Crouton" to add it with all the avaiable information. 
+> You can now use the site to directly import recipes from KptnCook into [Crouton](https://crouton.app/)! \
+> Using [this](https://www.icloud.com/shortcuts/4e3fff62cf20494aa2d17280dbc64af3) shortcut you can just hit "Share" on any KptnCook recipe and select "Cook2Crouton" to add it with all the avaiable information. \
 > Big thanks to [Devin](https://mastodon.social/@JustMeDevin) for providing the necessary info to make this happen!
 
 - Fetch recipes using KptnCook short links
