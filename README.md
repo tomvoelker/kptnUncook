@@ -1,6 +1,6 @@
 # KptnUncook 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/03a6d700-b297-4101-92b3-936277c1eba4/deploy-status)](https://app.netlify.com/sites/kptncook/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/03a6d700-b297-4101-92b3-936277c1eba4/deploy-status)](https://kptncook.netlify.app/)
 
 This project is a simple web application that allows sharing and viewing recipes from [KptnCook](https://www.kptncook.com/). It provides an easy way to fetch and display recipe details using short links.
 
