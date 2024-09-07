@@ -312,7 +312,7 @@
         }
 
         function copyAsMarkdown() {
-            const recipe = <% - JSON.stringify(recipe) %>;
+            const recipe = <%= JSON.stringify(recipe) %>;
             let markdown = `# ${recipe.title}\n\n`;
 
             if (recipe.imageList && recipe.imageList.length > 0) {
