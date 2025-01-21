@@ -147,6 +147,13 @@
                 align-items: center;
             }
 
+            .navbar-brand {
+                font-size: 1rem;
+                margin-right: 0;
+                text-align: center;
+                padding: 0.5rem 0;
+            }
+
             .container {
                 padding-left: 10px;
                 padding-right: 10px;
@@ -158,6 +165,7 @@
 
             #langToggle {
                 margin-left: 0;
+                font-size: 0.9rem;
             }
         }
     </style>
@@ -298,7 +306,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        const recipe = <%- JSON.stringify(recipe) %>;
+        const recipe = <% - JSON.stringify(recipe) %>;
     </script>
     <script>
         function toggleLanguage() {
