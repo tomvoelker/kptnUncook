@@ -1,14 +1,21 @@
 import { t } from './localization.js';
-import * as templates from './templates.js';
 import { setCookie, getCookie } from './utils.js';
 
 
 let currentLang = getCookie('lang') || 'de';
 
+function renderLoadingHTML(lang) {
+    return `<div class="loading">${t(lang, 'loading')}</div>`;
+}
+
+function renderErrorHTML(error, lang) {
+    return `<div class="error">${t(lang, 'error')}: ${error.message}</div>`;
+}
+
 async function parseRecipe() {
     const shortLink = document.getElementById('shortLink').value;
     const recipeDisplay = document.getElementById('recipeDisplay');
-    recipeDisplay.innerHTML = templates.renderLoadingHTML(currentLang);
+    recipeDisplay.innerHTML = renderLoadingHTML(currentLang);
 
     try {
         const response = await fetch('/.netlify/functions/getRecipe', {
@@ -31,7 +38,7 @@ async function parseRecipe() {
             throw new Error('No recipe ID returned from server');
         }
     } catch (error) {
-        recipeDisplay.innerHTML = templates.renderErrorHTML(error, currentLang);
+        recipeDisplay.innerHTML = renderErrorHTML(error, currentLang);
         console.error('Error:', error);
     }
 }
