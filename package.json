@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "build": "mkdir -p functions && cp shared/* functions/ && mkdir -p public && cp shared/* public/",
+    "build": "mkdir -p functions && cp -r shared/* functions/ && mkdir -p public && cp -r shared/* public/ && cp -r node_modules functions/ && cp -r node_modules public/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

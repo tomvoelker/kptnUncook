@@ -1,4 +1,4 @@
-import ejs from 'ejs';
+import ejs from './node_modules/ejs/ejs.js';
 import fs from 'fs';
 import path from 'path';
 import { t } from './localization.js';
