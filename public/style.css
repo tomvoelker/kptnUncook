@@ -262,7 +262,11 @@ body {
 
     .navbar .container {
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
     }
 
     .container {
@@ -292,7 +296,19 @@ body {
     }
 
     .hero .input-group {
-        max-width: 100%;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .hero .input-group .form-control {
+        border-radius: 25px !important;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .input-group .btn-primary {
+        border-radius: 25px !important;
+        width: 100%;
     }
 
     .info-card,
