@@ -4,6 +4,9 @@ import { setCookie, getCookie } from './utils.js';
 
 let currentLang = getCookie('lang') || 'de';
 
+// Add this constant at the top
+const DEMO_RECIPE_URL = "https://share.kptncook.com/Dh4a/jdj18idm";
+
 function renderLoadingHTML(lang) {
     return `<div class="loading">${t(lang, 'loading')}</div>`;
 }
@@ -49,6 +52,11 @@ function toggleLanguage() {
     updateUILanguage();
 }
 
+function loadDemoRecipe() {
+    document.getElementById('shortLink').value = DEMO_RECIPE_URL;
+    parseRecipe();
+}
+
 function updateUILanguage() {
     document.title = t(currentLang, 'appTitle');
     document.getElementById('appTitle').textContent = t(currentLang, 'appTitle');
@@ -57,6 +65,16 @@ function updateUILanguage() {
     document.getElementById('shortLink').placeholder = t(currentLang, 'inputPlaceholder');
     document.getElementById('getRecipeBtn').innerHTML = `<i class="fas fa-search"></i> ${t(currentLang, 'getRecipe')}`;
     document.getElementById('langToggle').textContent = t(currentLang, 'switchLang');
+    document.getElementById('demoButtonText').textContent = t(currentLang, 'demoRecipe');
+    document.getElementById('howToTitle').textContent = t(currentLang, 'howTo');
+    document.getElementById('step1').textContent = t(currentLang, 'step1');
+    document.getElementById('step2').textContent = t(currentLang, 'step2');
+    document.getElementById('step3').textContent = t(currentLang, 'step3');
+    document.getElementById('step4').textContent = t(currentLang, 'step4');
+    document.getElementById('iosShortcutTitle').textContent = t(currentLang, 'iosShortcutTitle');
+    document.getElementById('iosShortcutDesc').textContent = t(currentLang, 'iosShortcutDesc');
+    document.getElementById('iosShortcutBtnText').textContent = t(currentLang, 'iosShortcutBtn');
+    document.getElementById('githubText').textContent = t(currentLang, 'viewGithub');
 }
 
 // Initialize the UI language when the page loads
@@ -65,3 +83,4 @@ document.addEventListener('DOMContentLoaded', updateUILanguage);
 // Expose functions to global scope
 window.parseRecipe = parseRecipe;
 window.toggleLanguage = toggleLanguage;
+window.loadDemoRecipe = loadDemoRecipe;

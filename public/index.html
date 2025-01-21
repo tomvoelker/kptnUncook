@@ -17,8 +17,8 @@
         <div class="container">
             <a class="navbar-brand" href="/"><i class="fas fa-anchor me-2"></i><span id="appTitle">KptnUncook's
                     Kombüse</span></a>
-            <button class="btn btn-outline-light" id="langToggle" onclick="toggleLanguage()">Switch to English
-                🇺🇸</button>
+            <!-- <button class="btn btn-outline-light" id="langToggle" onclick="toggleLanguage()">Switch to English
+                🇺🇸</button> -->
         </div>
     </nav>
 
@@ -32,16 +32,52 @@
                     <i class="fas fa-search"></i> Rezept
                 </button>
             </div>
+            <p class="help-text" id="shortLinkHelp"></p>
+            <button class="btn btn-outline-light mt-2" id="demoRecipeBtn" onclick="loadDemoRecipe()">
+                <i class="fas fa-utensils me-2"></i><span id="demoButtonText">Beispielrezept ansehen</span>
+            </button>
         </div>
     </div>
 
     <div class="container mt-4">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
-                <div id="recipeDisplay" class="recipe-card"></div>
+                <div class="info-card mb-4">
+                    <h4 id="howToTitle">So funktioniert's:</h4>
+                    <ol id="instructionsList">
+                        <li id="step1"></li>
+                        <li id="step2"></li>
+                        <li id="step3"></li>
+                        <li id="step4"></li>
+                    </ol>
+                </div>
+
+                <div class="ios-shortcut-card" id="iosShortcutSection">
+                    <h4 id="iosShortcutTitle">iOS Shortcut</h4>
+                    <p id="iosShortcutDesc"></p>
+                    <a href="https://www.icloud.com/shortcuts/4d6ef953a0ed434f9ab0488d0858aba2"
+                        class="btn btn-outline-primary" id="iosShortcutBtn">
+                        <i class="fab fa-apple me-2"></i><span id="iosShortcutBtnText"></span>
+                    </a>
+                </div>
+
+                <div id="recipeDisplay" class="recipe-card d-none"></div>
             </div>
         </div>
     </div>
+
+    <footer class="footer mt-4">
+        <div class="container text-center">
+            <div class="footer-buttons">
+                <button class="btn btn-outline-secondary" id="langToggle" onclick="toggleLanguage()">
+                    Switch to English 🇺🇸
+                </button>
+                <a href="https://github.com/tomvoelker/kptnUncook" class="btn btn-outline-dark" id="githubLink">
+                    <i class="fab fa-github me-2"></i><span id="githubText">View on GitHub</span>
+                </a>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js" type="module"></script>

@@ -2,7 +2,7 @@ const translations = {
     de: {
         appTitle: "KptnUncook's Komische Kombüse",
         heroTitle: "Willkommen in der Kombüse",
-        heroSubtitle: "Teile köstliche Rezepte mit Freunden ganz einfach und schnell",
+        heroSubtitle: "Teile KptnCook Rezepte ohne App-Zwang",
         inputPlaceholder: "Rezept-Kurzlink eingeben",
         getRecipe: "Rezept abrufen",
         loading: "Lade Rezept...",
@@ -24,12 +24,22 @@ const translations = {
         switchLang: "Switch to English 🇺🇸",
         minutes: "Min.",
         notSpecified: "Nicht angegeben",
-        error: "Fehler beim Abrufen des Rezepts"
+        error: "Fehler beim Abrufen des Rezepts",
+        demoRecipe: "Beispielrezept einfügen",
+        howTo: "So funktioniert's:",
+        step1: "Öffne das gewünschte Rezept in der KptnCook App",
+        step2: "Tippe oben rechts auf Teilen und dann auf 'Link kopieren'",
+        step3: "Füge den Link hier ein und klicke auf 'Rezept abrufen'",
+        step4: "Teile diesen Link mit Freunden, um den App-Zwang zu umgehen",
+        iosShortcutTitle: "iOS Shortcut verfügbar",
+        iosShortcutDesc: "Für iOS-Nutzer: Nutze den Shortcut, um Rezepte noch schneller zu teilen! Teile einfach den Link mit dem Shortcut und dieser kopiert direkt den teilbaren Link in die Zwischenablage.",
+        iosShortcutBtn: "Shortcut ansehen",
+        viewGithub: "Auf GitHub ansehen"
     },
     en: {
         appTitle: "KptnUncook's Crazy Galley",
         heroTitle: "Welcome to the Galley",
-        heroSubtitle: "Share delicious recipes with friends quickly and easily",
+        heroSubtitle: "Share KptnCook recipes without a need to use the app",
         inputPlaceholder: "Enter recipe short link",
         getRecipe: "Get Recipe",
         loading: "Loading recipe...",
@@ -51,7 +61,17 @@ const translations = {
         switchLang: "Zu Deutsch wechseln 🇩🇪",
         minutes: "min",
         notSpecified: "Not specified",
-        error: "Error fetching recipe"
+        error: "Error fetching recipe",
+        demoRecipe: "View Sample Recipe",
+        howTo: "How it works:",
+        step1: "Open the desired recipe in the KptnCook app",
+        step2: "Tap share in the top right corner, then 'Copy link'",
+        step3: "Paste the link here and click 'Get Recipe'",
+        step4: "Share this link with friends to bypass need to use the app",
+        iosShortcutTitle: "iOS Shortcut Available",
+        iosShortcutDesc: "For iOS users: Use our shortcut to share recipes even faster! Share the link with the shortcut and it will copy the shareable link directly to your clipboard.",
+        iosShortcutBtn: "View Shortcut",
+        viewGithub: "View on GitHub"
     }
 };
 
