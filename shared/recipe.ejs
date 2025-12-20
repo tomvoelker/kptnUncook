@@ -344,6 +344,13 @@
                                             <% }); %>
                                     </ol>
                                     <div class="d-grid gap-2 mt-4">
+                                        <% const appLink = recipe.appLink || (recipe.recipeId ? `https://mobile.kptncook.com/r/${recipe.recipeId}` : null); %>
+                                        <% if (appLink) { %>
+                                        <a class="btn btn-success" href="<%= appLink %>" target="_blank" rel="noopener">
+                                            <i class="fas fa-mobile-alt me-2"></i>
+                                            <%= t(lang, 'openInApp' ) %>
+                                        </a>
+                                        <% } %>
                                         <button class="btn btn-primary" onclick="copyDirectLink()">
                                             <i class="fas fa-link me-2"></i>
                                             <%= t(lang, 'copyLink' ) %>

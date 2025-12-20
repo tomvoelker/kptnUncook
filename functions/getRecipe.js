@@ -199,6 +199,8 @@ exports.handler = async function (event, context) {
             recipeData[0].steps.shift();
         }
 
+        recipeData[0].recipeId = finalRecipeId;
+        recipeData[0].appLink = `https://mobile.kptncook.com/r/${finalRecipeId}`;
         prepareIngredientQuantities(recipeData[0]);
         decorateTimeAndTemperature(recipeData[0]);
         const structuredData = generateStructuredData(recipeData[0], lang);
