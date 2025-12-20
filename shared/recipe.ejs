@@ -386,7 +386,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        const recipe = <% - JSON.stringify(recipe) %>;
+        const recipe = <%- JSON.stringify(recipe) %>;
         let currentPortions = recipe.portionCount || recipe.yield || recipe.servings || recipe.portions || recipe.fixedPortionCount || 1;
 
         function formatQuantityClient(quantity) {
