@@ -367,19 +367,32 @@
                                             </li>
                                             <% }); %>
                                     </ul>
+                                    <% function escapeHtml(str) {
+                                        return String(str || '')
+                                            .replace(/&/g, '&amp;')
+                                            .replace(/</g, '&lt;')
+                                            .replace(/>/g, '&gt;');
+                                    }
+
+                                    function renderStepTitleWithTimers(step) {
+                                        const safeTitle = escapeHtml(step.title || '');
+                                        if (step.renderedTimers && step.renderedTimers.length) {
+                                            const chip = `<span class="timer-chip"><i class="fas fa-stopwatch"></i>${step.renderedTimers.join(', ')} ${t(lang, 'minutes')}</span>`;
+                                            if (safeTitle.includes('&lt;timer&gt;')) {
+                                                return safeTitle.replace('&lt;timer&gt;', chip);
+                                            }
+                                            return `${safeTitle} ${chip}`;
+                                        }
+                                        return safeTitle;
+                                    } %>
+
                                     <h5 class="mt-4 mb-3">
                                         <%= t(lang, 'instructions' ) %>
                                     </h5>
                                     <ol class="instructions-list">
                                         <% recipe.steps.forEach(step=> { %>
                                             <li>
-                                                <span><%= step.title %></span>
-                                                <% if (step.renderedTimers && step.renderedTimers.length) { %>
-                                                <span class="timer-chip">
-                                                    <i class="fas fa-stopwatch"></i>
-                                                    <%= step.renderedTimers.join(', ') %> <%= t(lang, 'minutes' ) %>
-                                                </span>
-                                                <% } %>
+                                                <%- renderStepTitleWithTimers(step) %>
                                             </li>
                                             <% }); %>
                                     </ol>
