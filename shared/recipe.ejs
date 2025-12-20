@@ -120,6 +120,23 @@
             font-weight: bold;
         }
 
+        .timer-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.2rem;
+            padding: 0.15rem 0.45rem;
+            margin-left: 0.35rem;
+            border-radius: 999px;
+            background-color: #ffe6dc;
+            color: #c74836;
+            font-weight: 600;
+            font-size: 0.8rem;
+        }
+
+        .timer-chip i {
+            color: #df5341;
+        }
+
         .btn-primary {
             background-color: #df5341;
             border-color: #df5341;
@@ -356,7 +373,13 @@
                                     <ol class="instructions-list">
                                         <% recipe.steps.forEach(step=> { %>
                                             <li>
-                                                <%= step.title %>
+                                                <span><%= step.title %></span>
+                                                <% if (step.renderedTimers && step.renderedTimers.length) { %>
+                                                <span class="timer-chip">
+                                                    <i class="fas fa-stopwatch"></i>
+                                                    <%= step.renderedTimers.join(', ') %> <%= t(lang, 'minutes' ) %>
+                                                </span>
+                                                <% } %>
                                             </li>
                                             <% }); %>
                                     </ol>

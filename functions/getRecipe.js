@@ -74,6 +74,31 @@ function decorateTimeAndTemperature(recipe) {
         recipe.temperature,
         recipe.bakingTemperature
     );
+
+    // Attach formatted timers for steps for downstream rendering
+    if (Array.isArray(recipe.steps)) {
+        recipe.steps = recipe.steps.map(step => {
+            if (Array.isArray(step.timers) && step.timers.length > 0) {
+                const formattedTimers = step.timers.map(timer => {
+                    const minVal = timer.minOrExact;
+                    const maxVal = timer.max;
+                    if (typeof minVal === 'number' && typeof maxVal === 'number') {
+                        return `${minVal}-${maxVal}`;
+                    }
+                    if (typeof minVal === 'number') {
+                        return `${minVal}`;
+                    }
+                    return null;
+                }).filter(Boolean);
+
+                return {
+                    ...step,
+                    renderedTimers: formattedTimers
+                };
+            }
+            return step;
+        });
+    }
 }
 
 async function getRecipeIdFromShortLink(shortLink) {
