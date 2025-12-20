@@ -211,23 +211,36 @@
                     <h1 class="recipe-title">
                         <%= recipe.title %>
                     </h1>
+                    <% const appLink = recipe.appLink || (recipe.recipeId ? `https://mobile.kptncook.com/r/${recipe.recipeId}` : null); %>
                     <% if (recipe.imageList && recipe.imageList.length> 0) { %>
                         <img src="<%= recipe.imageList.find(img => img.type === 'cover')?.url || recipe.imageList[0].url %>"
                             alt="<%= recipe.title %>" class="recipe-image mb-4">
+                        <% if (appLink) { %>
+                        <div class="d-block d-md-none mb-3">
+                            <a class="btn btn-success w-100" href="<%= appLink %>" target="_blank" rel="noopener">
+                                <i class="fas fa-mobile-alt me-2"></i>
+                                <%= t(lang, 'openInApp' ) %>
+                            </a>
+                        </div>
+                        <% } %>
                         <% } %>
                             <div class="recipe-meta">
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <div class="portion-controls">
                                             <i class="fas fa-utensils"></i>
-                                            <strong><%= t(lang, 'portions' ) %>:</strong>
+                                            <strong>
+                                                <%= t(lang, 'portions' ) %>:
+                                            </strong>
                                             <div class="btn-group ms-1" role="group">
-                                                <button class="btn btn-sm btn-outline-primary portion-btn" onclick="changePortions(-1)">-</button>
+                                                <button class="btn btn-sm btn-outline-primary portion-btn"
+                                                    onclick="changePortions(-1)">-</button>
                                                 <span id="portionCount" class="portion-count">
-                                                    <%= recipe.portionCount || recipe.yield || recipe.servings || recipe.portions ||
-                                                        recipe.fixedPortionCount || 1 %>
+                                                    <%= recipe.portionCount || recipe.yield || recipe.servings ||
+                                                        recipe.portions || recipe.fixedPortionCount || 1 %>
                                                 </span>
-                                                <button class="btn btn-sm btn-outline-primary portion-btn" onclick="changePortions(1)">+</button>
+                                                <button class="btn btn-sm btn-outline-primary portion-btn"
+                                                    onclick="changePortions(1)">+</button>
                                             </div>
                                         </div>
                                     </div>
@@ -235,37 +248,40 @@
                                         <i class="fas fa-clock"></i> <strong>
                                             <%= t(lang, 'prepTime' ) %>:
                                         </strong>
-                                        <%= (recipe.displayPrepTime ?? recipe.preparationTime ?? t(lang, 'notSpecified' )) %>
+                                        <%= (recipe.displayPrepTime ?? recipe.preparationTime ?? t(lang, 'notSpecified'
+                                            )) %>
                                             <%= t(lang, 'minutes' ) %>
                                     </div>
                                     <div class="col-sm-4">
                                         <i class="fas fa-fire"></i> <strong>
                                             <%= t(lang, 'cookTime' ) %>:
                                         </strong>
-                                        <%= (recipe.displayCookTime ?? recipe.cookingTime ?? t(lang, 'notSpecified' )) %>
+                                        <%= (recipe.displayCookTime ?? recipe.cookingTime ?? t(lang, 'notSpecified' ))
+                                            %>
                                             <%= t(lang, 'minutes' ) %>
                                     </div>
                                 </div>
                                 <% if (recipe.displayTotalTime || recipe.displayTemperature) { %>
-                                <div class="row mt-2">
-                                    <% if (recipe.displayTotalTime) { %>
-                                    <div class="col-sm-4">
-                                        <i class="fas fa-hourglass-half"></i> <strong>
-                                            <%= t(lang, 'totalTime' ) %>:
-                                        </strong>
-                                        <%= recipe.displayTotalTime %> <%= t(lang, 'minutes' ) %>
+                                    <div class="row mt-2">
+                                        <% if (recipe.displayTotalTime) { %>
+                                            <div class="col-sm-4">
+                                                <i class="fas fa-hourglass-half"></i> <strong>
+                                                    <%= t(lang, 'totalTime' ) %>:
+                                                </strong>
+                                                <%= recipe.displayTotalTime %>
+                                                    <%= t(lang, 'minutes' ) %>
+                                            </div>
+                                            <% } %>
+                                                <% if (recipe.displayTemperature) { %>
+                                                    <div class="col-sm-4">
+                                                        <i class="fas fa-thermometer-half"></i> <strong>
+                                                            <%= t(lang, 'temperature' ) %>:
+                                                        </strong>
+                                                        <%= recipe.displayTemperature %> °C
+                                                    </div>
+                                                    <% } %>
                                     </div>
                                     <% } %>
-                                    <% if (recipe.displayTemperature) { %>
-                                    <div class="col-sm-4">
-                                        <i class="fas fa-thermometer-half"></i> <strong>
-                                            <%= t(lang, 'temperature' ) %>:
-                                        </strong>
-                                        <%= recipe.displayTemperature %> °C
-                                    </div>
-                                    <% } %>
-                                </div>
-                                <% } %>
                             </div>
                             <% if (recipe.recipeNutrition) { %>
                                 <div class="nutrition-info">
@@ -320,7 +336,8 @@
                                             <li>
                                                 <div class="ingredient-line">
                                                     <i class="fas fa-check-circle text-success me-1"></i>
-                                                    <span class="ingredient-quantity" data-per-serving="<%= ingredient.perServingQuantity ?? '' %>">
+                                                    <span class="ingredient-quantity"
+                                                        data-per-serving="<%= ingredient.perServingQuantity ?? '' %>">
                                                         <%= ingredient.quantity || '' %>
                                                     </span>
                                                     <span class="ingredient-measure">
@@ -344,9 +361,9 @@
                                             <% }); %>
                                     </ol>
                                     <div class="d-grid gap-2 mt-4">
-                                        <% const appLink = recipe.appLink || (recipe.recipeId ? `https://mobile.kptncook.com/r/${recipe.recipeId}` : null); %>
                                         <% if (appLink) { %>
-                                        <a class="btn btn-success" href="<%= appLink %>" target="_blank" rel="noopener">
+                                        <a class="btn btn-success d-none d-md-inline-block" href="<%= appLink %>"
+                                            target="_blank" rel="noopener">
                                             <i class="fas fa-mobile-alt me-2"></i>
                                             <%= t(lang, 'openInApp' ) %>
                                         </a>
@@ -483,6 +500,12 @@
                 copyMessage.style.display = 'none';
             }, 3000);
         }
+
+        // Expose for inline handlers
+        window.changePortions = changePortions;
+        window.copyDirectLink = copyDirectLink;
+        window.copyAsMarkdown = copyAsMarkdown;
+        window.toggleLanguage = toggleLanguage;
     </script>
 </body>
 
