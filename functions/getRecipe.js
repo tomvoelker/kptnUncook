@@ -1,12 +1,89 @@
 import fetch from 'node-fetch';
 import { renderRecipeHTML, renderErrorHTML } from './templates';
 
+function getPortionCount(recipe) {
+    return recipe.yield || recipe.servings || recipe.portions || recipe.fixedPortionCount || 1;
+}
+
+function formatQuantity(quantity) {
+    if (quantity === null || quantity === undefined || isNaN(quantity)) {
+        return quantity;
+    }
+
+    const rounded = Math.round((quantity + Number.EPSILON) * 100) / 100;
+    return Number.isInteger(rounded) ? Math.round(rounded) : rounded;
+}
+
+function prepareIngredientQuantities(recipe) {
+    const portions = getPortionCount(recipe);
+    recipe.portionCount = portions;
+
+    if (!Array.isArray(recipe.ingredients) || !portions) {
+        return;
+    }
+
+    recipe.ingredients = recipe.ingredients.map(ingredient => {
+        const perServing = typeof ingredient.quantity === 'number'
+            ? ingredient.quantity
+            : (typeof ingredient.perServingQuantity === 'number' ? ingredient.perServingQuantity : null);
+
+        const totalQuantity = typeof perServing === 'number' ? perServing * portions : ingredient.quantity;
+
+        return {
+            ...ingredient,
+            perServingQuantity: perServing,
+            quantity: typeof totalQuantity === 'number' ? formatQuantity(totalQuantity) : totalQuantity
+        };
+    });
+}
+
+function firstNumber(...values) {
+    for (const value of values) {
+        const numericValue = typeof value === 'string' ? Number(value) : value;
+        if (typeof numericValue === 'number' && !isNaN(numericValue)) {
+            return numericValue;
+        }
+    }
+    return null;
+}
+
+function decorateTimeAndTemperature(recipe) {
+    recipe.displayPrepTime = firstNumber(
+        recipe.preparationTime,
+        recipe.preparationTimeInMinutes,
+        recipe.preparationTimeMinutes
+    );
+
+    recipe.displayCookTime = firstNumber(
+        recipe.cookingTime,
+        recipe.cookingTimeInMinutes,
+        recipe.cookingPreparationTime
+    );
+
+    const computedTotal = ((recipe.displayPrepTime || 0) + (recipe.displayCookTime || 0)) || null;
+    recipe.displayTotalTime = firstNumber(
+        recipe.totalTime,
+        recipe.totalTimeInMinutes,
+        computedTotal
+    );
+
+    recipe.displayTemperature = firstNumber(
+        recipe.ovenTemperatureCelsius,
+        recipe.ovenTemperature,
+        recipe.cookingTemperature,
+        recipe.temperature,
+        recipe.bakingTemperature
+    );
+}
+
 async function getRecipeIdFromShortLink(shortLink) {
     const response = await fetch(shortLink, { redirect: 'follow' });
     return response.url.split('/').pop();
 }
 
 function generateStructuredData(recipe, lang) {
+    const portions = getPortionCount(recipe);
+
     return {
         "@context": "https://schema.org/",
         "@type": "Recipe",
@@ -22,7 +99,7 @@ function generateStructuredData(recipe, lang) {
         "cookTime": `PT${recipe.cookingTime}M`,
         "totalTime": `PT${recipe.preparationTime + recipe.cookingTime}M`,
         "keywords": recipe.activeTags.join(", "),
-        "recipeYield": recipe.portions || recipe.yield || recipe.servings || recipe.fixedPortionCount || 2,
+        "recipeYield": portions || 2,
         "recipeCategory": recipe.activeTags.find(tag => tag.startsWith("main_ingredient_")) || "",
         "recipeCuisine": recipe.activeTags.find(tag => tag.startsWith("cuisine_")) || "",
         "nutrition": {
@@ -122,6 +199,8 @@ exports.handler = async function (event, context) {
             recipeData[0].steps.shift();
         }
 
+        prepareIngredientQuantities(recipeData[0]);
+        decorateTimeAndTemperature(recipeData[0]);
         const structuredData = generateStructuredData(recipeData[0], lang);
         const renderedHTML = renderRecipeHTML(recipeData[0], lang, structuredData);
 
